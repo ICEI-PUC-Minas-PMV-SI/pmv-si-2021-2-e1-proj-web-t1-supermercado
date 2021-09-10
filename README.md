@@ -10,15 +10,17 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Adilmar Luiz de Souza Junior
+* Anderson dos Santos
+* Fernanda de Souza Borges
+* Guilherme Cordeiro de Sousa
+* Jamesson Seren de Arruda
+* Lucas Santos Guimarães
 * Rodrigo Pena Furtado
 
 ## Orientador
 
-* Nome completo do professor 1
+* Hugo Bastos de Paula
 
 # Planejamento
 
