@@ -6,37 +6,25 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Laura tem 25 anos, classe média e recentemente precisou se mudar da casa dos seus pais para cursar a graduação em administração em outra cidade. Ela gosta de adquirir novas experiências e ler livros. Agora, sozinha, ganhando a ajuda de um salário mínimo e mais a economia que juntou durante alguns anos assumirá diversas responsabilidades. Devido ao seu novo estilo de vida, ela decidiu parar de "comer fora" com frequência, pois precisará controlar melhor os seus gastos. E para o seu primeiro passo, decidiu pesquisar o preço dos alimentos do seu cotidiano como: arroz, feijão, banana, entre outros. Normalmente, Laura procurava por sites de loja da sua cidade para ver se havia ou não o produto que ela queria para não dar "viagem perdida".
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Alexandre tem 48 anos, é funcionário público, casado, possui 3 filhos, sendo dois meninos e uma menina. Durante sua infância, várias pessoas o ajudaram em sua jornada e ele acompanhava seus pais em serviços de ajuda humanitária. Sendo que ele adquiriu esse hábito e tem prazer em ajudar outras pessoas. Na igreja em que frequenta, Alexandre é líder em um departamento de assistência social, e sabe que quanto mais cestas básicas conseguir montar, mais pessoas ele irá conseguir ajudar nesse período de pandemia. Adepto da tecnologia, irá começar a realizar a pesquisa de preços de forma online.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Beatriz gosta de praticar esportes, tem 23 anos, e apesar de ser uma pessoa esforçada e dedicada, nunca conseguiu um emprego. Apesar das dificuldades, ela é uma pessoa bastante positiva e mora com os pais. Por não achar emprego, decidiu ser empreendedora e montar um negócio próprio. Por saber cozinhar "PF" (Prato Feito) , irá montar um negócio para vender "marmita", que contará com um preço bem acessível aos seus clientes. Para isso, ela decidiu procurar os preços mais baratos dos principais produtos alimentícios. Ela sabe um pouco de informática e possui um computador para auxiliá-la em seu projeto.
+
+Paulo é uma pessoa metódica, tem 32 anos e organiza todos os seus gastos em uma planilha que fez no computador. No tempo livre, assiste vídeos sobre educação financeira e política no "Youtube". Apesar de não passar por dificuldades financeiras, sempre tenta economizar o máximo de dinheiro possível para estar preparado para uma eventual emergência que possa ocorrer em sua vida. Sendo organizado, ele é quem faz as compras de alimentos para a sua casa, e apesar de haver um mercado próximo a sua casa, as vezes sai mais barato comprar em um lugar mais longe de onde mora. As vezes ele escuta indicação de amigos de onde ele pode comprar mais barato, mas ele prefere pesquisar por si mesmo o preço das coisas.
+
+Geisy tem 28 anos, mora sozinha e apesar de estar empregada, passa por dificuldades financeiras. Ela gosta de jogar futebol e andar de skate. Ele possui somente o ensino médio, usa normalmente dispositivos eletrônicos como: computador e smartphone. Possuindo consciência de seu atual estado financeiro, irá começar a economizar em tudo que ela pode. Principalmente na questão dos alimentos, pois é algo que ela utiliza todos os dias e é necessário para a sua saúde.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Enquanto desempregado, gostaria de ver os preços mais baratos de alimentos aqui na minha cidade para que eu possa economizar e sobreviver durante essa fase de dificuldade financeira que estou vivendo.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+Como estudante, preciso saber os preços mais acessíveis de alimentos, pois se eu utilizar a minha renda para ficar comendo em restaurantes ou lanchonetes, irá me faltar dinheiro para outras prioridades pessoais.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Como autônomo, quero começar a vender "PF" (Prato Feito) a um preço acessível tanto para mim, quanto para os meus futuros clientes. Para isso necessito buscar quais são os produtos alimentícios mais baratos e assim começar o meu negócio.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+Como um "bom comprador", desejo comprar os alimentos em um melhor preço possível, mesmo eu não passando por dificuldades financeiras no momento. Pois eu sei que comprando as coisas por um preço maior durante anos, pode pesar muito mais no meu orçamento financeiro.
 
 ## Requisitos
 
