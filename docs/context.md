@@ -1,6 +1,6 @@
 # Introdução
 
-Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.
+Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores de cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira, oriunda do Sars-Cov-2, no Brasil. 
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
