@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
