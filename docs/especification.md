@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
--  Como já foi observado, a necessidade de buscar preços melhores dos produtos essenciais está cada vez mais comum. Com isso, optou-se por desenvolver uma ferramenta que compare os preços dos principais produtos, que compõem a cesta básica, dos supermercados localizados em Belo Horizonte. 
+Como já foi observado, a necessidade de buscar preços melhores dos produtos essenciais está cada vez mais comum. Com isso, optou-se por desenvolver uma ferramenta que compare os preços dos principais produtos, que compõem a cesta básica, dos supermercados localizados em Belo Horizonte. 
 
 Essa ferramenta será um site responsivo, de interface intuitiva, leve, de fácil acesso para qualquer tipo de usuário. 
 
