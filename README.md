@@ -5,7 +5,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Um site com objetivo de comparar os preços dos produtos essenciais em uma cesta básica.
 
 ## Integrantes
 
