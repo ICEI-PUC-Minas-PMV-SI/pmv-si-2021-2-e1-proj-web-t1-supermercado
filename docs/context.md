@@ -3,6 +3,12 @@
 Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores de cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira, oriunda do Sars-Cov-2, no Brasil. 
 
 ## Problema
+
+Há vários anos o e-commerce vem crescendo devido a sua vantagem comparativa em relação as lojas físicas. Tal vantagem advém do fato de muitos custos costumeiros do varejo serem evitados, como, por exemplo, aluguéis caros e alto número de fúncionarios. A partir dessa demanda aumentada, foi criado um modelo de negócio de sites de comparação de preços, são empresas que obtém suas receitas de link de redirecionamento. Contudo, apesar de muito difundido, esse modelo de negócio não alcançou os supermercados. Primeiramente, a criação de mercados digitais em paralelo aos supermercados já existentes é algo relativamente novo. Além disso, compras de mercados são feitas em listas (e muitas vezes extensas) ao passo que o e-commerce tradicional se baseia em um item por vez ou poucos, o que facilita a pesquisa e compra em sites diversos.
+O que existem atualmente, são aplicativos/sites que terceirizam a compra, mas não são exatamente comparadores de preços. 
+Assim, temos um vazio nesse segmento de comparação de preços: o de comparação de preços de supermercados e em lista de compras. O presente projeto visa preencher esse vácuo e, possível, demanda com a criação de um site.
+
+
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
