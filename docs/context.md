@@ -1,7 +1,7 @@
 # Introdução
 
- Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira, sanitária e social, reduzindo o poder de compra da população.  Nesse contexto, a busca por melhores ofertas tornou-se mais frequente, por parte dos usuários da internet. Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores dos itens das cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira no Brasil. 
- 
+Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores de cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira, oriunda do Sars-Cov-2, no Brasil. 
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
@@ -15,22 +15,17 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+Comparar preços de produtos de cestas básicas de diversos supermercados na cidade de Belo Horizonte.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+- Auxiliar pessoas de classe baixa e média a encontrar os alimentos mais baratos. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Detectar supermercados com promoções de alimentos comuns em cestas básicas. 
+
+- Contribuir com a redução do impacto econômico na crise da pandemia. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O encorajamento deste projeto surgiu pela necessidade de facilitar a busca por produtos básicos como alimentos e materiais de higiene em supermercados, apresentando um sistema de comparação de preços e, também, indicando promoções para pessoas que sofrem com a crise econômica durante a pandemia com base nos diversos valores divulgados em sites e panfletos dos principais supermercados da região.
 
 ## Público-Alvo
 
