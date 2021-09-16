@@ -1,8 +1,11 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+-  Como já foi observado, a necessidade de buscar preços melhores dos produtos essenciais está cada vez mais comum. Com isso, optou-se por desenvolver uma ferramenta que compare os preços dos principais produtos, que compõem a cesta básica, dos supermercados localizados em Belo Horizonte. 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Essa ferramenta será um site responsivo, de interface intuitiva, leve, de fácil acesso para qualquer tipo de usuário. 
+
+O desenvolvimento do projeto será utilizando as tecnologias ... 
+
 
 ## Personas
 
