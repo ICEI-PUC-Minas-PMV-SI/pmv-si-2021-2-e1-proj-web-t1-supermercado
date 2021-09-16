@@ -29,13 +29,4 @@ O encorajamento deste projeto surgiu pela necessidade de facilitar a busca por p
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Homens e mulheres de classe baixa e média (até 4 salários mínimos), funcionários operacionais, autônomos ou desempregados (que recebem benefícios ou auxilio do governo), que residem em Belo Horizonte, entre 20 a 50 anos, com a escolaridade mínima de ensino fundamental incompleto, que procuram por produtos de cesta básica em promoção ou com bons preços.  Os smartphones são os principais dispositivos para o acesso a internet.  
