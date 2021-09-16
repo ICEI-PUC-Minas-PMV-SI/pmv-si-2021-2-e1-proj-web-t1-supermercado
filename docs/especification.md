@@ -4,7 +4,6 @@ Como já foi observado, a necessidade de buscar preços melhores dos produtos es
 
 Essa ferramenta será um site responsivo, de interface intuitiva, leve, de fácil acesso para qualquer tipo de usuário. 
 
-O desenvolvimento do projeto será utilizando as tecnologias ... 
 
 
 ## Personas
