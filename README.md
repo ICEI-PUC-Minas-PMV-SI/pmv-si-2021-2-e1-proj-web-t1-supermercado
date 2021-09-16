@@ -1,5 +1,4 @@
-# TÍTULO DO PROJETO
-
+# PLATAFORMA WEB DE COMPARAÇÃO DE PREÇOS
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Aplicações Web`
