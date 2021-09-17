@@ -38,11 +38,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|Cadastro de produtos  | ALTA |
-|RF-002|Cadastro de supermercados | ALTA|
-|RF-003|Atualização de produtos, preços e endereços  | MÉDIA|
-|RF-003|Exclusão de produtos   | MÉDIA|
-|RF-003|Exclusão do cadastro dos usuários| MÉDIA|
+|RF-007|Cadastro de produtos  | ALTA |
+|RF-008|Cadastro de supermercados | ALTA|
+|RF-009|Atualização de produtos, preços e endereços  | MÉDIA|
+|RF-010|Exclusão de produtos   | MÉDIA|
+|RF-011|Exclusão do cadastro dos usuários| MÉDIA|
 
 ### Requisitos não Funcionais
 
