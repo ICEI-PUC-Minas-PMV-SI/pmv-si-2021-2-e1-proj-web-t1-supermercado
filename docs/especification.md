@@ -8,8 +8,7 @@ Essa ferramenta será um site responsivo, de interface intuitiva, leve, de fáci
 
 ## Personas
 
-- Laura tem 25 anos, classe média e recentemente precisou se mudar da casa dos seus pais para cursar a graduação em administração em outra cidade. Ela gosta de adquirir novas experiências e ler livros. Agora, sozinha, ganhando a ajuda de um salário mínimo e mais a economia que juntou durante alguns anos assumirá diversas responsabilidades. Devido ao seu novo estilo de vida, ela decidiu parar de "comer fora" com frequência, pois precisará controlar melhor os seus gastos. E para o seu primeiro passo, decidiu pesquisar o preço dos alimentos do seu cotidiano como: arroz, feijão, banana, entre outros. Normalmente, Laura procurava por sites de loja da sua cidade para ver se havia ou não o produto que ela queria para não dar "viagem perdida".
-
+- Geisy tem 28 anos, mora sozinha e apesar de estar empregada, passa por dificuldades financeiras. Ela possui somente o ensino médio, usa normalmente dispositivos eletrônicos como: computador e smartphone. Possuindo consciência de seu atual estado financeiro, ela começará a economizar em tudo que pode - principalmente na questão dos alimentos e itens de higiene pessoal, pois é algo que ela utiliza todos os dias, e é necessário para a sua saúde. 
 
 ## Histórias de Usuários
 
