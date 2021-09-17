@@ -1,6 +1,6 @@
 # Introdução
 
-Com o Surgimento da Pandemia do Coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento.Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores de cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira, oriunda do Sars-Cov-2, no Brasil. 
+Com o surgimento da pandemia do coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade - por parte dos usuários da internet - em encontrar os itens com melhor custo para seu orçamento. Diante disso, surge a ideia para a elaboração de um site, contendo uma multiplicidade de supermercados e os preços de seus produtos, com o objetivo de comparar os valores de cestas básicas e facilitar a tomada de decisão das pessoas de classe baixa e média, a fim atenuar parte dos efeitos gerados pela crise financeira, oriunda do Sars-Cov-2, no Brasil. 
 
 ## Problema
 
@@ -20,4 +20,4 @@ Espera-se que com esse projeto sejá possível auxiliar pessoas de baixa renda a
 
 ## Público-Alvo
 
-Homens e mulheres de classe baixa e média (até 4 salários mínimos), funcionários operacionais, autônomos ou desempregados (que recebem benefícios ou auxilio do governo), que residem em Belo Horizonte, entre 20 a 50 anos, com a escolaridade mínima de ensino fundamental incompleto, que procuram por produtos de cesta básica em promoção ou com bons preços.  Os smartphones são os principais dispositivos para o acesso a internet.  
+Homens e mulheres de classe baixa e média (até 4 salários mínimos), funcionários operacionais, autônomos ou desempregados (que recebem benefícios ou auxilio do governo), que residem em Belo Horizonte, entre 20 a 50 anos, com a escolaridade mínima de ensino médio, que procuram por produtos de cesta básica em promoção ou com bons preços.  Os smartphones são os principais dispositivos para o acesso a internet.  
