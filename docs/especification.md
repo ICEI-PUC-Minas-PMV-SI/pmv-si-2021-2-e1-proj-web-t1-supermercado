@@ -23,10 +23,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
+- USUÁRIO
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir cadastro de usuário para envio de promoções via e-mail| MÉDIA|
-|RF-002|Impressão na tela dos resultados com base no produto selecionado |ALTA|
+|RF-001|Cadastro de usuário  | MÉDIA|
+|RF-002|Envio de promoção por e-mail  | MÉDIA|
+|RF-003|Remoção do cadastro do usuário  | MÉDIA|
+|RF-004|Buscador de produtos  |ALTA|
+|RF-005|Cadastro de lista de produtos favoritos   | MÉDIA|
+|RF-006|Exibir na tela os resultados da busca com base no produto selecionado Impressão na tela dos resultados com base no produto selecionado |ALTA|
+
+- ADMINISTRADOR DA PAGINA
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001|Cadastro de produtos  | ALTA |
+|RF-002|Cadastro de supermercados | ALTA|
+|RF-003|Atualização de produtos, preços e endereços  | MÉDIA|
+|RF-003|Exclusão de produtos   | MÉDIA|
+|RF-003|Exclusão do cadastro dos usuários| MÉDIA|
 
 ### Requisitos não Funcionais
 
@@ -34,9 +50,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Responsivo para dispositivos móveis  | ALTA|
 |RNF-002| Suporte a dispositivos iOS e Android  | MÉDIA|
-|RNF-003|Disponível em conexões de baixa velocidade |MÉDIA|
+|RNF-003| Disponível em conexões de baixa velocidade |MÉDIA|
 |RNF-004| Respeitar o tempo máximo de 15 segundos nas requisições | MÉDIA|
-|RNF-005| Buscar preços de produtos em sites de supermercados e hipermercados usando xxx  |ALTA|
+|RNF-005| Buscar preços de produtos em sites de supermercados via api  |ALTA|
+|RNF-006| Buscar preços de produtos em banco de dados |ALTA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
