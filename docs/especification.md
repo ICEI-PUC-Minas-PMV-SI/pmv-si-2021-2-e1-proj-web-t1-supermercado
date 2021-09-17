@@ -17,6 +17,8 @@ Essa ferramenta será um site responsivo, de interface intuitiva, leve, de fáci
 
 - Como um "bom comprador", preciso cadastrar uma "lista de desejos" (Wish List) para receber notificações de produtos que entraram em promoção.
 
+-  Como administrador preciso manter atualizados a relação e os preços dos produtos; endereço dos supermercados; integração entre formulários HTML, Banco de dados, API e Linguagem de programação; enviar promoções para os usuários cadastrados e permitir que o usuário exclua sua conta. 
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
