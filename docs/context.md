@@ -21,17 +21,13 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
-Comparar preços de produtos de cestas básicas de diversos supermercados na cidade de Belo Horizonte.
 
-- Auxiliar pessoas de classe baixa e média a encontrar os alimentos mais baratos. 
-
-- Detectar supermercados com promoções de alimentos comuns em cestas básicas. 
-
-- Contribuir com a redução do impacto econômico na crise da pandemia. 
+O objetivo deste projeto é desenvolver um sistema de comparação de preços de produtos de cestas básicas de diversos supermercados na cidade de Belo Horizonte.
+Os objetivos específicos são: identificar supermercados que permitam comparações de preços, detectar supermercados com promoções de alimentos comuns em cestas básicas, desenvolver um sistema que realize a busca de preços e a comparação de produtos.
 
 ## Justificativa
 
-O encorajamento deste projeto surgiu pela necessidade de facilitar a busca por produtos básicos como alimentos e materiais de higiene em supermercados, apresentando um sistema de comparação de preços e, também, indicando promoções para pessoas que sofrem com a crise econômica durante a pandemia com base nos diversos valores divulgados em sites e panfletos dos principais supermercados da região.
+Espera-se que com esse projeto sejá possível auxiliar pessoas de baixa renda a encontrarem os alimentos mais baratos e que, também, contribua com a redução do impacto econômico na crise da pandemia.
 
 ## Público-Alvo
 
