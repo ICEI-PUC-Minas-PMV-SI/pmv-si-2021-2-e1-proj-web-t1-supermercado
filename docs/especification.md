@@ -23,7 +23,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-- USUÁRIO
+- Usuário
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -34,7 +34,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005|Cadastro de lista de produtos favoritos   | MÉDIA|
 |RF-006|Exibir na tela os resultados da busca com base no produto selecionado |ALTA|
 
-- ADMINISTRADOR DA PAGINA
+- Administrador da página
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
