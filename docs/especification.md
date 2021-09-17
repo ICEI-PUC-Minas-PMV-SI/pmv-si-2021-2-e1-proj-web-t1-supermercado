@@ -32,7 +32,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003|Remoção do cadastro do usuário  | MÉDIA|
 |RF-004|Buscador de produtos  |ALTA|
 |RF-005|Cadastro de lista de produtos favoritos   | MÉDIA|
-|RF-006|Exibir na tela os resultados da busca com base no produto selecionado Impressão na tela dos resultados com base no produto selecionado |ALTA|
+|RF-006|Exibir na tela os resultados da busca com base no produto selecionado |ALTA|
 
 - ADMINISTRADOR DA PAGINA
 
