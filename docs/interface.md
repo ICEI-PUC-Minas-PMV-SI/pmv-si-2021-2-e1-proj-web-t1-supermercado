@@ -31,3 +31,5 @@ login
 
 * Caso o usuário tenha perdido a senha ele clica no link que é redirecionado para o e-mail para criar uma nova senha. 
 * Para acessar a página lista de desejo o usuário digita o e-mail, senha e clica no botão entrar. 
+
+![lista de desejo](https://user-images.githubusercontent.com/89584687/136304342-d133bf1d-a42d-4fc5-8128-824d03c5705e.png)
