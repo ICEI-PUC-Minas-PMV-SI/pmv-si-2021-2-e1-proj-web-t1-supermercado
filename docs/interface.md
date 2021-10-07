@@ -23,9 +23,9 @@ Categorias
 
 LOGIN
 
-* Caso o usuário tenha perdido a senha ele clica no link que é redirecionado para o e-mail para criar uma nova senha. 
-* Para acessar a página “Lista de desejos” o usuário digita o e-mail, senha e clica no botão entrar .
-
+* Para acessar a página “Lista de desejos” o usuário digita o e-mail, senha e clica no botão entrar; 
+*  O Administrador ao digitar o e-mail, senha e clicar no botão entrar, ele é direcionado para a “página de cadastro";
+* Caso o usuário tenha perdido a senha, ao clicar “esqueceu sua senha?” será enviado para o e-mail do usuário a redefinição de senha. 
 
 ![lista de desejo](https://user-images.githubusercontent.com/89584687/136304342-d133bf1d-a42d-4fc5-8128-824d03c5705e.png)
 
