@@ -5,7 +5,7 @@ Por meio do navegador, o usuário acessará a página principal do projeto, pode
 
 
 ## User Flow
-![userflow-supermercado](https://user-images.githubusercontent.com/89820803/136298944-71dfdaa6-9554-432b-97e9-32553d6be6c7.jpg)
+![compara_preco-07 10](https://user-images.githubusercontent.com/89820803/136465590-3bb84b87-e702-422c-be30-b08525fb1783.jpg)
 
 
 ## Wireframes
