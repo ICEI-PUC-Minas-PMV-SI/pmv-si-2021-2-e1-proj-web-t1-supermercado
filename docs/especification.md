@@ -43,7 +43,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008|Cadastro de supermercados | ALTA|
 |RF-009|Atualização de produtos, preços e endereços  | MÉDIA|
 |RF-010|Exclusão de produtos   | MÉDIA|
-|RF-011|Exclusão do cadastro dos usuários| MÉDIA|
+|RF-011|Exclusão do cadastro dos usuários| BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -53,8 +53,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| Suporte a dispositivos iOS e Android  | MÉDIA|
 |RNF-003| Disponível em conexões de baixa velocidade |MÉDIA|
 |RNF-004| Respeitar o tempo máximo de 15 segundos nas requisições | MÉDIA|
-|RNF-005| Buscar preços de produtos em sites de supermercados via api  |ALTA|
-|RNF-006| Buscar preços de produtos em banco de dados |ALTA|
+|RNF-005| Buscar preços de produtos em sites de supermercados via api  |BAIXA |
+|RNF-006| Buscar preços de produtos em banco de dados |BAIXA |
 
 ## Restrições
 
