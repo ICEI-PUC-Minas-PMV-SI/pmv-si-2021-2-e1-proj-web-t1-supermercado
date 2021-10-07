@@ -1,9 +1,8 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Por meio do navegador, o usuário acessará a página principal do projeto, podendo visualizar as ofertas mais recentes, realizar buscas específicas (supermercados ou itens) ou por categorias de determinado produto. Na parte inferior da página será possível efetuar o cadastro ou login. Após o cadastro, o usuário será capaz de salvar seus produtos preferidos através da "lista de desejos", obtendo as melhores ofertas, e acessar o endereço dos supermercados mais próximos de sua residência.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 ![userflow-supermercado](https://user-images.githubusercontent.com/89820803/136298944-71dfdaa6-9554-432b-97e9-32553d6be6c7.jpg)
@@ -16,7 +15,7 @@ Categorias
 
 * Sempre que clicar na logo, o usuário será redirecionado para a página Home;
 * O ícone de menu direciona o usuário para a aba de menu;
-* Clicando em buscar, basta o usuário digitar o nome do produto desejado para que ele consiga encontra-lo;
+* Clicando em buscar, basta o usuário digitar o nome do produto ou supermercado desejado para que ele consiga encontra-lo;
 * Clicando no produto, o usuário é direcionado para uma página específica onde monstra em qual supermercado ele está sendo vendido.
 
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
