@@ -12,18 +12,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Wireframes
 ![home](https://user-images.githubusercontent.com/89584687/136302797-8fee7c5f-74f7-415e-ab9a-e3377625605d.png)
 ![categoria](https://user-images.githubusercontent.com/89584687/136302830-6ef7d90b-b6bb-4180-b068-f4cb929ffba6.png)
-CATEGORIAS 
+Categorias
 
-        • Logotipo: Sempre que clicar na logo, o usuário é redirecionado para a página HOME; 
+* Sempre que clicar na logo, o usuário será redirecionado para a página Home;
+* O ícone de menu direciona o usuário para a aba de menu;
+* Clicando em buscar, basta o usuário digitar o nome do produto desejado para que ele consiga encontra-lo;
+* Clicando no produto, o usuário é direcionado para uma página específica onde monstra em qual supermercado ele está sendo vendido.
 
-        • Menu: Este ícone direciona o usuário para a aba de menu; 
-
-        • Buscar: Faz com que o usuário consiga buscar o produto pelo seu nome; 
-
-        • Produto: Clicando no produto, o usuário é direcionado para uma página específica 
-        onde mostra em qual supermercado ele está sendo vendido. 
-
- 
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
 ![login](https://user-images.githubusercontent.com/89584687/136302839-a456bc43-bd77-4212-b7ff-8b35c051d480.png)
 
