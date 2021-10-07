@@ -20,7 +20,8 @@ CATEGORIAS
 
         • Buscar: Faz com que o usuário consiga buscar o produto pelo seu nome; 
 
-        • Produto: Clicando no produto, o usuário é direcionado para uma página específica onde mostra em qual supermercado ele está sendo vendido. 
+        • Produto: Clicando no produto, o usuário é direcionado para uma página específica 
+        onde mostra em qual supermercado ele está sendo vendido. 
 
  
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
