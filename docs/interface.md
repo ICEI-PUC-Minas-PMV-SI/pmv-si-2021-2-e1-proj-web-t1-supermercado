@@ -12,14 +12,18 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Wireframes
 ![home](https://user-images.githubusercontent.com/89584687/136302797-8fee7c5f-74f7-415e-ab9a-e3377625605d.png)
 ![categoria](https://user-images.githubusercontent.com/89584687/136302830-6ef7d90b-b6bb-4180-b068-f4cb929ffba6.png)
+CATEGORIAS 
 
-Categorias
+        • Logotipo: Sempre que clicar na logo, o usuário é redirecionado para a página HOME; 
 
-* Logotipo: Sempre que clicar na logo, o usuário será redirecionado para a página HOME;
-* Menu: Este ícone direciona o usuário para a aba de menu;
-* Buscar: Faz com que o usuário consiga buscar o produto pelo seu nome;
-* Produto: Clicando no produto, o usuário é direcionado para uma página específica onde mostra em qual supermercado ele está sendo vendido.
+        • Menu: Este ícone direciona o usuário para a aba de menu; 
 
+        • Buscar: Faz com que o usuário consiga buscar o produto pelo seu nome; 
+
+        • Produto: Clicando no produto, o usuário é direcionado para uma página específica 
+        onde mostra em qual supermercado ele está sendo vendido. 
+
+ 
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
 ![login](https://user-images.githubusercontent.com/89584687/136302839-a456bc43-bd77-4212-b7ff-8b35c051d480.png)
 
@@ -27,3 +31,16 @@ login
 
 * Caso o usuário tenha perdido a senha ele clica no link que é redirecionado para o e-mail para criar uma nova senha. 
 * Para acessar a página lista de desejo o usuário digita o e-mail, senha e clica no botão entrar. 
+
+![lista de desejo](https://user-images.githubusercontent.com/89584687/136304342-d133bf1d-a42d-4fc5-8128-824d03c5705e.png)
+
+LISTA DE DESEJOS 
+
+* Apresenta a relação de produtos previamente cadastrados, para uma busca mais rápida e personalizada; 
+
+* Ao clicar na logo o usuário será direcionado para Home; 
+
+* Ao clicar no item/produto favorito, o usuário será direcionado para uma nova página, onde serão apresentados os resultados da busca do produto favorito, organizado por preço e em ordem do menor para o maior preço; 
+
+* Clicando em "Minha Conta" o usuário será direcionado para pagina com os dados cadastrados;
+
