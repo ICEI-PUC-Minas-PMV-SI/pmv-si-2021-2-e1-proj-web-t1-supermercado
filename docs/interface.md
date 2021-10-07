@@ -22,10 +22,11 @@ Categorias
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
 ![login](https://user-images.githubusercontent.com/89584687/136302839-a456bc43-bd77-4212-b7ff-8b35c051d480.png)
 
-login
+LOGIN
 
 * Caso o usuário tenha perdido a senha ele clica no link que é redirecionado para o e-mail para criar uma nova senha. 
-* Para acessar a página lista de desejo o usuário digita o e-mail, senha e clica no botão entrar. 
+* Para acessar a página “Lista de desejos” o usuário digita o e-mail, senha e clica no botão entrar .
+
 
 ![lista de desejo](https://user-images.githubusercontent.com/89584687/136304342-d133bf1d-a42d-4fc5-8128-824d03c5705e.png)
 
