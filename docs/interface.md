@@ -10,6 +10,29 @@ Por meio do navegador, o usuário acessará a página principal do projeto, pode
 
 ## Wireframes
 ![home](https://user-images.githubusercontent.com/89584687/136302797-8fee7c5f-74f7-415e-ab9a-e3377625605d.png)
+
+HOME 
+
+*Na logo do site, o usuário será redirecionado ao topo da página inicial (home); 
+
+*Há um campo de buscas, no qual o usuário poderá digitar o que procura e deverá clicar no campo “buscar” para isso; 
+
+*Haverá uma lista dos principais produtos, mais buscados, com ícones que remetem a tais produtos. Clicando em um destes, levará a uma buscar por aquele produto; 
+
+*Na seção oferta do dia, apareceram fotos com produtos das principais promoções do dia. Clicando em uma foto, levará ao produto (ou categoria de produtos) mostrada; 
+
+*Ofertas da semana terá a mesma mecânica da seção oferta do dia, apenas com a diferença de que as ofertas mudarão semanalmente; 
+
+*Teremos o botão de “cadastre-se”, que levará a página de cadastro. 
+
+*Botão “Minha conta” levará a página do usuário; 
+
+*Haverá botões com ícones dos logos de redes sociais, nos quais o usuário será redirecionado a cada rede social específica. Teremos Twitter, Instagram e Facebook.
+
+
+
+
+
 ![categoria](https://user-images.githubusercontent.com/89584687/136302830-6ef7d90b-b6bb-4180-b068-f4cb929ffba6.png)
 Categorias
 
