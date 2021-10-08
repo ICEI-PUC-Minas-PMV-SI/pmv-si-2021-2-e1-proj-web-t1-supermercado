@@ -13,21 +13,21 @@ Por meio do navegador, o usuário acessará a página principal do projeto, pode
 
 HOME 
 
-*Na logo do site, o usuário será redirecionado ao topo da página inicial (home); 
+* Na logo do site, o usuário será redirecionado ao topo da página inicial (home); 
 
-*Há um campo de buscas, no qual o usuário poderá digitar o que procura e deverá clicar no campo “buscar” para isso; 
+* Há um campo de buscas, no qual o usuário poderá digitar o que procura e deverá clicar no campo “buscar” para isso; 
 
-*Haverá uma lista dos principais produtos, mais buscados, com ícones que remetem a tais produtos. Clicando em um destes, levará a uma buscar por aquele produto; 
+* Haverá uma lista dos principais produtos, mais buscados, com ícones que remetem a tais produtos. Clicando em um destes, levará a uma buscar por aquele produto; 
 
-*Na seção oferta do dia, apareceram fotos com produtos das principais promoções do dia. Clicando em uma foto, levará ao produto (ou categoria de produtos) mostrada; 
+* Na seção oferta do dia, apareceram fotos com produtos das principais promoções do dia. Clicando em uma foto, levará ao produto (ou categoria de produtos) mostrada; 
 
-*Ofertas da semana terá a mesma mecânica da seção oferta do dia, apenas com a diferença de que as ofertas mudarão semanalmente; 
+* Ofertas da semana terá a mesma mecânica da seção oferta do dia, apenas com a diferença de que as ofertas mudarão semanalmente; 
 
-*Teremos o botão de “cadastre-se”, que levará a página de cadastro. 
+* Teremos o botão de “cadastre-se”, que levará a página de cadastro. 
 
-*Botão “Minha conta” levará a página do usuário; 
+* Botão “Minha conta” levará a página do usuário; 
 
-*Haverá botões com ícones dos logos de redes sociais, nos quais o usuário será redirecionado a cada rede social específica. Teremos Twitter, Instagram e Facebook.
+* Haverá botões com ícones dos logos de redes sociais, nos quais o usuário será redirecionado a cada rede social específica. Teremos Twitter, Instagram e Facebook.
 
 
 
