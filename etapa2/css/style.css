@@ -1,0 +1,56 @@
+/*área de comentário*/
+header { 
+  background: rgba(222, 222, 222, 1);
+}
+.logo{
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+.search{
+  margin-left: 300px;
+  margin-bottom: 25px;
+  position:absolute;
+  left: 500px;
+  top:60px;
+}
+
+.submit{
+  margin-left: 500px;
+  margin-bottom: 25px;
+  position:absolute;
+  left: 500px;
+  top:60px;
+}
+.menu{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  padding-right: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#title1{
+  background: rgba(222, 222, 222, 1);
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.section{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  padding-right: 10px;
+}
+footer{
+  background: rgba(222, 222, 222, 1);
+}
