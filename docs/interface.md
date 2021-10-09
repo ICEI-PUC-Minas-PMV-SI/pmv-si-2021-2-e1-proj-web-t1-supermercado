@@ -42,6 +42,11 @@ Categorias
 * Clicando no produto, o usuário é direcionado para uma página específica onde monstra em qual supermercado ele está sendo vendido.
 
 ![cadastro](https://user-images.githubusercontent.com/89584687/136302835-b1759dfd-fb47-4543-9542-87aa61c0b1a9.png)
+CADASTRO 
+
+* Para realizar o cadastro, o usuário necessitará preencher os seguintes dados, corretamente: nome, email, celular e senha. 
+* Clicando na logo, o usuário será redirecionado para a página inicial. 
+
 ![login](https://user-images.githubusercontent.com/89584687/136302839-a456bc43-bd77-4212-b7ff-8b35c051d480.png)
 
 LOGIN
