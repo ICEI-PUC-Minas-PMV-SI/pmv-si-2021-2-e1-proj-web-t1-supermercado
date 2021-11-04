@@ -368,3 +368,34 @@ footer{
 }
 
 
+
+
+
+
+
+.header-block{
+    position: relative;
+    max-width: auto;
+    min-width: auto;
+    height: auto;
+    background: rgb(245, 244, 244);
+    border-radius: 8px;
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
+
+
+}
+
+#sobreh2 {
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sobrep {
+    padding: 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
