@@ -1,0 +1,370 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+/* o cabeçalho da pagina padrão em todoas as páginas */
+
+h1{
+    color: #b10e0e; 
+}
+
+#texto-cabecalho{
+    font-size: 28px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;  
+    margin-top: 5px;
+}
+#header-cabecalho{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #343130;
+    margin-top: 5px;
+}
+h4{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.logo{
+    width: 300px;
+    align-items: center;
+}
+.pesquisa-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+}
+
+.pesquisa{
+    display: flex;
+    width: 450px;
+    height: 40px; 
+}
+
+#texto-pesquisa{
+    display: flex;
+    width: 450px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px; 
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #666;
+    padding: 5px;
+}
+
+.btn-lupa-pesquisa{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #666;
+    padding: 5px 10px;
+    cursor: pointer; 
+    border-radius: 0px 8px 8px 0px;
+}
+
+.pesquisar-box{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.btt-entrar{
+    background-color:rgb(65, 63, 63);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;    
+}
+
+.btt-cadastrar{ 
+    background-color:rgb(65, 63, 63);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.separador{
+    color: #fff;
+
+}
+.icone-pessoa{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Menu */
+
+#menu a{
+    color: #343130;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+#menu a:hover{
+    background: #666;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: auto; 
+    gap: .5rem; 
+    margin-top: 20px;
+}
+
+#menu a{
+    display: block;
+    padding:  .5rem;
+}
+
+#btn-menu{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .logo{
+        width: 250px;
+    }
+        
+    #menu{
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        background: #e7e7e7;
+        z-index: 10000;
+        height: 0px;
+        visibility: hidden;
+        overflow: auto;
+        padding: 10px;      
+    }
+    .categorias{
+        padding: 2rem 1rem 0rem;
+    } 
+    #nav.active #menu{
+        height: auto;
+        visibility: visible;
+        margin-bottom: 10px;
+       
+    }
+
+    #menu a{
+        padding: 0.7rem 0;
+        margin: 0 2.5rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05); 
+        position: relative;
+    }
+
+    #btn-menu{
+        display: flex;      
+        padding: 10px;
+        font-size: 14pt;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;       
+        
+
+               
+           
+    }
+    #hamburguer-menu{
+        border-top: 2px solid;
+        width: 20px;
+        
+    }
+
+     #hamburguer-menu::after, #hamburguer-menu::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #000;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+        
+    }
+    #nav.active #hamburguer-menu{
+        border-top-color: transparent ;
+    }
+    #nav.active #hamburguer-menu::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer-menu::after{
+        transform: rotate(-135deg);
+        
+    }
+    
+    .pesquisa{
+        width: 310px;   
+    }
+    #texto-pesquisa{
+        width: 310px;  
+    }
+
+    #corpo-pagina{
+        display: none;
+    }
+    /*rodapé*/
+    .rodape-escrita{
+        text-align: center;
+    }
+    .rede-social a{ 
+        padding: 10px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/* O corpo da pagina */
+
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+#titulo-corpo-pagina{
+    color: rgb(54, 54, 54);
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: left;
+    align-items: center; 
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px; 
+}
+
+.box-produtos{
+    width: 20%;
+    display: block;
+    min-width: 300px;
+    background-color: #fff;
+    border: 2px solid rgb(233, 231, 231);
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center; 
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-produto-principal{
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.descricao-produto{
+    color: #666;
+    text-align: center;
+    font-weight: bold;
+}
+
+.descricao-produto-valor{
+    color: #b10e0e; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.texto-produto{
+    text-align: center;
+    color: #343130;
+} 
+
+.logo-supermercado{
+    margin-left: 37%;
+    margin-bottom: 20px;
+    width: 75px;
+    height: auto;
+}
+
+.btt-lista{
+    background-color: #343130;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    margin-left: 65px; 
+}
+
+/* o rodape da pagina */
+
+footer{
+    background-color: #343130;
+    width: 100%;
+    height: 120px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#rod1{
+
+    justify-content:space-around;
+    align-items:center;
+}
+#rod2{ 
+    width: 50px;
+    height: 50px;
+    padding: 10px;  
+}
+
+.rodape-escrita a {
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px ;
+}
+
+.rodape-escrita p{
+    color: #ccc;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px ;
+}
+
+
