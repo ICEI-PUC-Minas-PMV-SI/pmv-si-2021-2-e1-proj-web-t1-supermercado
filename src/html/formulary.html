@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no-scale">
+    <title> Compare Preço </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/gallery.min.css">
+    <link rel="stylesheet" href="../css/gallery.theme.css">
+</head>
+
+<body>
+    <!--Padrão em todas as páginas-->
+    <header>
+        <h1 id="texto-cabecalho"> Aqui você encontra os melhores preços! </h1>
+
+        <div id="header-cabecalho">
+            <dv class="logo1">
+                <img class="logo" src="../img/logo.jpg" alt="">
+            </dv>
+
+            <div class="pesquisa-flex">
+                <form class="pesquisa">
+                    <input type="search" id="texto-pesquisa" placeholder="Pesquisar">
+                    <img src="../img/lupa.png" class="btn-lupa-pesquisa">
+                </form>
+            </div>
+
+            <div class="pesquisar-box">
+                <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
+                <a href="../html/login.html" target="_blank"> <button type="button"
+                        class="btt-entrar">Entrar</button></a>
+                <h4 class="separador">|</h4>
+                <a href="../html/cadastro.html" target="_blank"> <button type="button" class="btt-cadastrar">Cadastrar
+                    </button></a>
+            </div>
+        </div>
+
+
+        
+    </header>
+
+    <form class=flex-form>
+        <fieldset class="flex-fieldset">
+
+            <div class="flex-items">
+                <label for="nome" class="label-form"><strong>Nome:</strong></label></br>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="flex-items">
+                <label for="sobrenome" class="label-form"><strong>Sobrenome:</strong></label></br>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+            <div class="flex-items">
+                <label for="email"class="label-form"><strong>E-mail:</strong></label></br>
+                <input type="email" name="email" id="email" placeholder="Ex@email.com" required>
+            </div>
+
+            <div class="flex-items">
+                <label for="password" class="label-form"><strong>Senha:</strong></label></br>
+                <input type="password" name="password" id="senha1" placeholder="Pelos menos 6 caracteres" required>
+            </div>
+
+            <div class="flex-items">
+                <label for="password" class="label-form"><strong>Confirmar senha:</strong></label></br>
+                <input type="password" name="password" id="senha2" placeholder="Digite novamente sua senha" required>
+            </div>
+
+            <div class="flex-items">
+                <input type="checkbox" name="checkbox" value="agree" required class="caixa-de-confirmacao">
+                <label for="checkbox" class="label-politica">Concordo com a Política de Privacidade do site</label>
+            </div>
+
+        </fieldset>
+        <button type="submit" id="botao-form">Cadastrar</button>
+
+    </form>
+    <a href="politic.html" id="link-politica">
+        <p id="politica">Conheça nossa Política de Privacidade</p>
+    </a>
+
+    <!--Rodapé padrão para todas as páginas-->
+    <footer>
+        <div class="container" id="rod1">
+            <div class="rodape-escrita">
+                <a href=""> Sobre nós</a>
+                <a href=""> © Copywriting - Grupo Supermercado </a>
+            </div>
+
+            <div class="rede-social">
+                <a href="#"><img class="instagram" id="rod2" src="../img/instagram.jpg" /></a>
+                <a href="#"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
+                <a href="#"><img class="twitter" id="rod2" src="../img/whats.jpg" /> </a>
+            </div>
+
+        </div>
+    </footer>
+    <!--Rodapé padrão para todas as páginas-->
+
+</body>
+
+</html>
