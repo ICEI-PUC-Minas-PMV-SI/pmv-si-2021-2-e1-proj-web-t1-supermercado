@@ -373,29 +373,52 @@ footer{
 
 
 
-.header-block{
-    position: relative;
-    max-width: auto;
-    min-width: auto;
-    height: auto;
-    background: rgb(245, 244, 244);
-    border-radius: 8px;
-    box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
-    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
-    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
+/* Css sobre nos */
 
-
-}
-
-#sobreh2 {
-    padding: 18px;
-    display: flex;
-    justify-content: center;
+.body-about {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
 }
 
-#sobrep {
-    padding: 0px 100px;
-    font-family: Arial, Helvetica, sans-serif;    
+.about-section{
+    background: url(../img/carrinho.jpg) no-repeat left ;
+    background-size: 55%;
+    background-color: black;
+    overflow: hidden;
+    padding: 100px 0;
 }
 
+.contabout {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.contabout h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.textosobre {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
