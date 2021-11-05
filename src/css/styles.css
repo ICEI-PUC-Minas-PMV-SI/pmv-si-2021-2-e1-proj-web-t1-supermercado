@@ -327,7 +327,8 @@ h4{
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 25px;
-    margin-left: 65px; 
+    margin-left: 65px;
+    cursor: pointer;
 }
 
 /* o rodape da pagina */
@@ -366,36 +367,539 @@ footer{
     cursor: pointer;
     padding: 20px ;
 }
-
-
-
-
-
-
-
-.header-block{
-    position: relative;
-    max-width: auto;
-    min-width: auto;
-    height: auto;
-    background: rgb(245, 244, 244);
-    border-radius: 8px;
-    box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
-    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
-    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0, 0.5);
-
-
+/*Botão lista*/
+.btt-lista-desejo{
+    background-color:crimson;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    margin-left: 65px;
+    cursor: pointer;
 }
 
-#sobreh2 {
-    padding: 18px;
-    display: flex;
-    justify-content: center;
+
+
+
+
+
+
+/* Css sobre nos */
+
+.body-about {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
 }
 
-#sobrep {
-    padding: 0px 100px;
-    font-family: Arial, Helvetica, sans-serif;    
+.about-section{
+    background: url(../img/carrinho.jpg) no-repeat left ;
+    background-size: 55%;
+    background-color: black;
+    overflow: hidden;
+    padding: 100px 0;
 }
 
+.contabout {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.contabout h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.textosobre {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/*incicio do css do formulário */
+
+.flex-form{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.flex-fieldset{
+    width: 50%;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 60%;
+}
+
+#nome{
+    border-radius: 5px; 
+
+    width: 90%; 
+
+    height: 30px; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 25px;
+
+    margin-left: 10px; 
+    margin-right: 10px; 
+    font-size: 17px;
+
+}
+#sobrenome{
+    border-radius: 5px; 
+
+    width: 90%; 
+
+    height: 30px; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 25px;
+
+    margin-left: 10px; 
+    margin-right: 10px; 
+    font-size: 17px;
+
+}
+
+#email{
+    border-radius: 5px; 
+
+    width: 90%; 
+
+    height: 30px; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 25px;
+
+    margin-left: 10px; 
+    margin-right: 10px; 
+    font-size: 17px;
+
+}
+
+#senha1{
+    border-radius: 5px; 
+
+    width: 90%; 
+
+    height: 30px; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 25px;
+
+    margin-left: 10px; 
+    margin-right: 10px; 
+    font-size: 17px;
+
+}
+
+#senha2{
+    border-radius: 5px; 
+
+    width: 90%; 
+
+    height: 30px; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 25px;
+
+    margin-left: 10px; 
+    margin-right: 10px; 
+    font-size: 17px;
+}
+
+.label-form{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+#botao-form{
+        width: 85px;
+        padding: 8px;
+        border-radius: 7px;
+        color: #fff;
+        background-color: #666;
+        margin-left:10px;
+        margin-top: 30px;
+        cursor: pointer;
+}
+
+.caixa-de-confirmacao{
+    margin-left: 10px;
+}
+
+.label-politica{
+    width: auto;
+    font-size: 18px;
+}
+
+#link-politica{
+    text-decoration: none !important;
+    color: #960000;
+}
+
+#politica{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+/* media scren-css do formulário*/
+
+@media screen and (max-width:1500px){
+    .flex-fieldset{
+    width: 52%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 62%;
+}
+}
+@media screen and (max-width:1400px){
+    .flex-fieldset{
+    width: 54%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 64%;
+}
+}
+@media screen and (max-width:1300px){
+    .flex-fieldset{
+    width: 56%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 66%;
+}
+}
+@media screen and (max-width:1200px){
+    .flex-fieldset{
+    width: 58%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 68%;
+}
+}
+@media screen and (max-width:1100px){
+    .flex-fieldset{
+    width: 60%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 70%;
+}
+}
+@media screen and (max-width:1000px){
+    .flex-fieldset{
+    width: 62%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 72%;
+}
+}
+@media screen and (max-width:900px){
+    .flex-fieldset{
+    width: 64%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 74%;
+}
+}
+@media screen and (max-width:800px){
+    .flex-fieldset{
+    width: 66%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 76%;
+}
+}
+@media screen and (max-width:700px){
+    .flex-fieldset{
+    width: 68%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 78%;
+}
+}
+@media screen and (max-width:600px){
+    .flex-fieldset{
+    width: 70%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+
+.flex-items{
+    width: 80%;
+}
+}
+@media screen and (max-width:500px){
+    .flex-fieldset{
+    width: 72%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 82%;
+}
+}
+@media screen and (max-width:400px){
+    .flex-fieldset{
+    width: 74%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 84%;
+}
+}
+@media screen and (max-width:300px){
+    .flex-fieldset{
+    width: 76%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 86%;
+}
+}
+
+@media screen and (max-width:200px){
+    .flex-fieldset{
+    width: 78%;
+    height: auto;
+    box-shadow: 5px 5px 30px 1px rgb(150, 136, 134);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: white;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+ 
+.flex-items{
+    width: 88%;
+}
+
+}
+
+/* css de política de privacidade*/
+
+.titulo-politica{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.texto-politica{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.lista-politica{
+    margin-left: 30px;
+   margin-top: 10px;
+   font-size: 20px;
+}
