@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    
-}
-.Fundo-login {
+body {
     background-color: #343130;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -75,6 +71,9 @@ button {
 }
 .cadastro {
     font-size: 15px;
+}
+#recuperar{
+    cursor: pointer;
 }
 
 /* The Modal (background) */
