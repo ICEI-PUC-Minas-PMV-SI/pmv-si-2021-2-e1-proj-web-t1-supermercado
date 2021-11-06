@@ -73,7 +73,9 @@ h4{
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    justify-content:space-around;
+    align-items: center; 
+        
 }
 
 .btt-entrar{
@@ -83,7 +85,8 @@ h4{
     padding: 10px 20px;
     font-size: 14px;
     align-items: center;
-    cursor: pointer;    
+    cursor: pointer;
+    
 }
 
 .btt-cadastrar{ 
@@ -93,6 +96,18 @@ h4{
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
+    
+}
+.btt-desejos{ 
+    background-color:rgb(65, 63, 63);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+    
+    
 }
 .separador{
     color: #fff;
@@ -144,6 +159,22 @@ h4{
     .logo{
         width: 250px;
     }
+    .btt-entrar{
+  
+       font-size: 100%;       
+       padding: 10px;
+       margin: 10px;        
+    }
+    
+    .btt-cadastrar{ 
+     
+        font-size: 100%;       
+    }
+    .btt-desejos{ 
+
+        font-size: 100%; 
+    }
+ 
         
     #menu{
         display: inline-block;
