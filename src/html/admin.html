@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no-scale">
+    <title> Gestão do Sistema </title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/gallery.min.css">
+    <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login  
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+        }
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            // Informa o nome do usuário logado
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+            exibeUsuarios();
+        }
+        function exibeUsuarios() {
+
+            // Popula a tabela com os registros do banco de dados
+            let listaUsuarios = '';
+            for (i = 0; i < db_usuarios.usuarios.length; i++) {
+                let usuario = db_usuarios.usuarios[i];
+                listaUsuarios += `<tr>
+                    <td>${usuario.id}<span id="id-prod"> </span></td>
+                    <td>${usuario.nome}</td>
+                    <td>${usuario.login}</td>
+                    <td>${usuario.email}</td>
+                    <input id="user-del" type="button" value="Remover" onclick="$('#id-prod').text(${usuario.id});">
+                   
+                                 
+                     `;
+            }
+            // Substitui as linhas do corpo da tabela
+            document.getElementById('table-usuarios').innerHTML = listaUsuarios
+
+        }
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            // Intercepta o click do botão Excluir
+            $("#user-del").click(function () {
+                let campoId = $("id-prod");
+                console.log(campoId);
+                if (campoId == "") {
+                    alert("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeUsuarios();
+
+            });
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            exibeUsuarios();
+        }
+        function deleteContato(id) {
+            // Filtra o array removendo o elemento com o id passado
+            db_usuarios = db_usuarios.filter(function (element) { 
+                return element.id != id});
+
+            alert ("Contato removido com sucesso");
+
+            // Atualiza os dados no Local Storage
+            //localStorage.setItem('db_contato', JSON.stringify(db));
+            localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
+            exibeUsuarios();
+        }
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+
+    </script>
+</head>
+
+<body>
+    <!--Padrão em todas as páginas------------------------------------------------------------------>
+    <header>
+        <h1 id="texto-cabecalho"> Aqui você encontra os melhores preços! </h1>
+
+        <div id="header-cabecalho">
+            <div class="logo1">
+                <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+            </div>
+
+            <div class="pesquisa-flex">
+                <form class="pesquisa">
+                    <input type="search" id="texto-pesquisa" placeholder="Pesquisar">
+                    <img src="../img/lupa.png" class="btn-lupa-pesquisa">
+                </form>
+            </div>
+            <div class="pesquisar-box">
+                <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
+                <input type="button" id="login_ok" value="Minha Conta">
+                <h4 class="separador">|</h4>
+                <button type="button" id="btn_logout" class="btt-desejos">Sair</button>
+            </div>
+        </div>
+        <div id="menu_principal">
+            <nav id="nav">
+                <div class="categorias">
+                    <button aria-label="Abrir Menu" id="btn-menu" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false">Categorias <span id="hamburguer-menu"></span> </button>
+                </div>
+
+
+                <ul id="menu" role="menu">
+                    <li><a href="mercearia.html"> mercearia </a></li>
+                    <li><a href="acougue.html"> açougue</a></li>
+                    <li><a href="biscoito.html">biscoitos e doces </a></li>
+                    <li><a href="higiene.html"> higiene pessoal </a></li>
+                    <li><a href="hortifruti.html"> hortifruti</a></li>
+                    <li><a href="latas.html"> latas e conservas </a></li>
+                    <li><a href="laticinios.html"> laticinios</a></li>
+                    <li><a href="limpeza.html"> limpeza </a></li>
+                </ul>
+
+            </nav>
+
+
+        </div>
+    </header>
+    <!--Fim do header padrão categorias --------------------------------------------------------->
+    <main>
+
+        <section>
+
+            <div class="container">
+
+                <div class="titulo_user"> Gestão dos usuários </div>
+
+                <table id="grid-usuarios" class="tblListar">
+                    <thead>
+                        <tr>
+                            <th scope="col" id="nomeid">id</th>
+                            <th scope="col" id="nomeid">Nome</th>
+
+                            <th scope="col">Usuário</th>
+                            <th scope="col">E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-usuarios">
+                    </tbody>
+                </table>
+                <div class="titulo_user"> Cadastro dos produtos </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!--Rodapé padrão para todas as páginas------------------------------------------------------>
+    <footer>
+        <div class="container" id="rod1">
+            <div class="rodape-escrita">
+                <a href=""> Sobre nós</a>
+                <a href=""> © Copywriting - Grupo Supermercado </a>
+            </div>
+
+            <div class="rede-social">
+                <a href="https://www.instagram.com/"><img class="instagram" id="rod2" src="../img/instagram.jpg" /></a>
+                <a href="https://www.facebook.com/"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
+                <a href="https://web.whatsapp.com/"><img class="whats" id="rod2" src="../img/whats.jpg" /> </a>
+            </div>
+
+        </div>
+    </footer>
+    <!--Rodapé padrão para todas as páginas------------------------------------------------------>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script>
+
+
+</script>
+<script src="../js/script.js"></script>
+
+</html>
