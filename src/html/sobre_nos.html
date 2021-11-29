@@ -9,15 +9,47 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" href="../css/gallery.min.css">
     <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script src="../js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e modifica texto input           
+        if (usuarioCorrente.login) {
+            function initPage() {
+                // Associa a função de logout ao botão
+                document.getElementById('login_on').addEventListener('click', logoutUser);
+                // informa o nome do usuário logado
+                const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+                // Altera texto botão minha conta
+                document.getElementById("login_ok").value = usuarioCorrente.login;
+                document.getElementById("login_on").value = 'Sair';
+
+            }
+        }
+        if (usuarioCorrente.login == 'admin') function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('login_on').addEventListener('click', logoutUser);
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            // Altera texto botão minha conta
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+            document.getElementById("login_on").value = 'Sair';
+            document.getElementById("admin_ok").value = 'Gestão';
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
 </head>
 
 <body>
     <header>
         <h1 id="texto-cabecalho"> Aqui você encontra os melhores preços! </h1>
-
         <div id="header-cabecalho">
             <div class="logo1">
-                <a href="index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+                <img class="logo" src="../img/logo.jpg" alt="">
             </div>
 
             <div class="pesquisa-flex">
@@ -26,60 +58,65 @@
                     <img src="../img/lupa.png" class="btn-lupa-pesquisa">
                 </form>
             </div>
-
             <div class="pesquisar-box">
                 <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
-                <a href="../html/login.html" target="_blank"> <button type="button"
-                        class="btt-entrar">Entrar</button></a>
+                <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
+                </a>
                 <h4 class="separador">|</h4>
-                <a href="../html/cadastro.html" target="_blank"> <button type="button" class="btt-cadastrar">Cadastrar
+                <a href="../html/list.html"> <input type="button" id="admin_ok" class="btt-desejos"
+                        value="Lista de desejos">
                     </button></a>
                 <h4 class="separador">|</h4>
-                <a href="../html/cadastro.html" target="_blank"> <button type="button" class="btt-desejos">Lista de
-                        desejos
-                    </button></a>
+                <a href="../html/login.html"> <input type="button" id="login_on" class="btt-entrar" value="Entrar"></a>
             </div>
         </div>
 
 
-        
-    <div class="body-about">
-        <div class="about-section">
-            <div class="contabout">
-                <h1>Sobre Nós</h1>
-                <p class="textosobre">
-                    Nossa plataforma tem por objetivo <strong>fornecer as principais promoções de diversos produtos</strong> alimentícios e higiene pessoal, tendo opções de pesquisas por categorias (açougue, limpeza, frutas, etc) nos principais supermercados da cidade, sendo possível acessar o endereço de cada local <strong> e comparar os preços</strong>. De acordo com a preferência do usuário, poderá ser criada uma lista de desejos, salvando seus produtos e locais favoritos (somente para usuários cadastrados no sistema).
-                </p>
-                <div class="skills">
-                    <span>Veja</span>
-                    <span>Compare</span>
-                    <span>Escolha</span>
+
+
+        <div class="body-about">
+            <div class="about-section">
+                <div class="contabout">
+                    <h1>Sobre Nós</h1>
+                    <p class="textosobre">
+                        Nossa plataforma tem por objetivo <strong>fornecer as principais promoções de diversos
+                            produtos</strong> alimentícios e higiene pessoal, tendo opções de pesquisas por categorias
+                        (açougue, limpeza, frutas, etc) nos principais supermercados da cidade, sendo possível acessar o
+                        endereço de cada local <strong> e comparar os preços</strong>. De acordo com a preferência do
+                        usuário, poderá ser criada uma lista de desejos, salvando seus produtos e locais favoritos
+                        (somente para usuários cadastrados no sistema).
+                    </p>
+                    <div class="skills">
+                        <span>Veja</span>
+                        <span>Compare</span>
+                        <span>Escolha</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
 
-    <!--Rodapé padrão para todas as páginas-->
-    <footer>
-        <div class="container" id="rod1">
-            <div class="rodape-escrita">
-                <a href=""> Sobre nós</a>
-                <a href=""> © Copywriting - Grupo Supermercado </a>
+        <!--Rodapé padrão para todas as páginas-->
+        <footer>
+            <div class="container" id="rod1">
+                <div class="rodape-escrita">
+                    <a href=""> Sobre nós</a>
+                    <a href=""> © Copywriting - Grupo Supermercado </a>
+                </div>
+
+                <div class="rede-social">
+                    <a href="https://www.instagram.com/"><img class="instagram" id="rod2"
+                            src="../img/instagram.jpg" /></a>
+                    <a href="https://www.facebook.com/"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
+                    <a href="https://web.whatsapp.com/"><img class="whats" id="rod2" src="../img/whats.jpg" /> </a>
+                </div>
+
             </div>
-
-            <div class="rede-social">
-                <a href="https://www.instagram.com/"><img class="instagram" id="rod2" src="../img/instagram.jpg" /></a>
-                <a href="https://www.facebook.com/"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
-                <a href="https://web.whatsapp.com/"><img class="whats" id="rod2" src="../img/whats.jpg" /> </a>
-            </div>
-
-        </div>
-    </footer>
-    <!--Rodapé padrão para todas as páginas-->
+        </footer>
+        <!--Rodapé padrão para todas as páginas-->
 
 </body>
 <script src="../js/script.js"></script>
