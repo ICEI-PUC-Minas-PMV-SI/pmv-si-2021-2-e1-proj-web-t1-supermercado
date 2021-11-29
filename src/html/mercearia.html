@@ -9,57 +9,91 @@
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
     <link rel="stylesheet" href="../css/gallery.min.css">
     <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script src="../js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e modifica texto input           
+        if (usuarioCorrente.login) {
+            function initPage() {
+                // Associa a função de logout ao botão
+                document.getElementById('login_on').addEventListener('click', logoutUser);
+                // informa o nome do usuário logado
+                const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+                // Altera texto botão minha conta
+                document.getElementById("login_ok").value = usuarioCorrente.login;
+                document.getElementById("login_on").value = 'Sair';
+
+            }
+        }
+        if (usuarioCorrente.login == 'admin') function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('login_on').addEventListener('click', logoutUser);
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            // Altera texto botão minha conta
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+            document.getElementById("login_on").value = 'Sair';
+            document.getElementById("admin_ok").value = 'Gestão';
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
 </head>
 
 <body>
-    <!--Padrão em todas as páginas-->
     <header>
         <h1 id="texto-cabecalho"> Aqui você encontra os melhores preços! </h1>
-
         <div id="header-cabecalho">
             <div class="logo1">
-                <a href="index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+                <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
             </div>
 
             <div class="pesquisa-flex">
                 <form class="pesquisa">
                     <input type="search" id="texto-pesquisa" placeholder="Pesquisar">
-                    <img src="../img/lupa.png" class="btn-lupa-pesquisa"> 
+                    <img src="../img/lupa.png" class="btn-lupa-pesquisa">
                 </form>
             </div>
-
             <div class="pesquisar-box">
                 <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
-                <a href="../html/login.html" target="_blank"> <button type="button"
-                        class="btt-entrar">Entrar</button></a>
+                <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
+                </a>
                 <h4 class="separador">|</h4>
-                <a href="../html/formulary.html" target="_blank"> <button type="button" class="btt-cadastrar">Cadastrar
+                <a href="../html/list.html"> <input type="button" id="admin_ok" class="btt-desejos"
+                        value="Lista de desejos">
                     </button></a>
                 <h4 class="separador">|</h4>
-                <a href="../html/List_Desejo.html" target="_blank"> <button type="button" class="btt-desejos">Lista de
-                        desejos
-                    </button></a>
+                <a href="../html/login.html"> <input type="button" id="login_on" class="btt-entrar" value="Entrar"></a>
             </div>
         </div>
-    </header>
+        <div id="menu_principal">
+            <nav id="nav">
+                <div class="categorias">
+                    <button aria-label="Abrir Menu" id="btn-menu" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false">Categorias <span id="hamburguer-menu"></span> </button>
+                </div>
 
-    <div id="menu_principal">
-        <nav id="nav">
-            <div class="categorias">
-                <button aria-label="Abrir Menu" id="btn-menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Categorias <span id="hamburguer-menu"></span>  </button>
-            </div>
-            <ul id="menu" role="menu">
-                <li><a href="mercearia.html"> mercearia </a></li>
-                <li><a href="acougue.html"> açougue</a></li>
-                <li><a href="biscoito.html">biscoitos e doces </a></li>
-                <li><a href="higiene.html"> higiene pessoal  </a></li>
-                <li><a href="hortifruti.html"> hortifruti</a></li>
-                <li><a href="latas.html"> latas e conservas </a></li>
-                <li><a href="laticinios.html"> laticinios</a></li>
-                <li><a href="limpeza.html"> limpeza </a></li>
-            </ul>
-        </nav>
-    </div> 
+
+                <ul id="menu" role="menu">
+                    <li><a href="mercearia.html"> mercearia </a></li>
+                    <li><a href="acougue.html"> açougue</a></li>
+                    <li><a href="biscoito.html">biscoitos e doces </a></li>
+                    <li><a href="higiene.html"> higiene pessoal </a></li>
+                    <li><a href="hortifruti.html"> hortifruti</a></li>
+                    <li><a href="latas.html"> latas e conservas </a></li>
+                    <li><a href="laticinios.html"> laticinios</a></li>
+                    <li><a href="limpeza.html"> limpeza </a></li>
+                </ul>
+
+            </nav>
+
+
+        </div>
+    </header>
 
     <main>
 
@@ -72,7 +106,7 @@
 
 
                 <div class="box-produtos prod-1">
-                    <a href="../img/arroz-ampliado-epa.jpg" target="_blank"><img class="img-produto-principal"
+                    <a href="../img/arroz-ampliado-epa.jpg"><img class="img-produto-principal"
                             src="../img/arroz1.jpg" width="200" height="200" /></a>
                     <img class="logo-supermercado" src="../img/epa.jpg" alt="Endereço"
                         title=" Av. Francisco Deslandes, 150 - Ancieta - BH - MG" />
