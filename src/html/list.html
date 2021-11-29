@@ -9,6 +9,35 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" href="../css/gallery.min.css">
     <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script src="../js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login  
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+
+        }
+
+        if (usuarioCorrente.login == 'admin'){
+            window.location.href = ADMIN_URL;
+        }
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+
+            console.log(usuarioCorrente);
+ 
+
+        }
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
 </head>
 
 <body>
@@ -18,7 +47,7 @@
 
         <div id="header-cabecalho">
             <div class="logo1">
-                <a href="index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+                <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
             </div>
 
             <div class="pesquisa-flex">
@@ -27,13 +56,11 @@
                     <img src="../img/lupa.png" class="btn-lupa-pesquisa">
                 </form>
             </div>
-
             <div class="pesquisar-box">
                 <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
-                <a href="index.html" target="_blank"> <button type="button" class="btt-entrar">Sair</button></a>
+                <input type="button" id="login_ok" value="Minha Conta">
                 <h4 class="separador">|</h4>
-                <a href="" target="_blank"> <button type="button" class="btt-cadastrar">Minha Conta
-                    </button></a>
+                <button type="button" id="btn_logout" class="btt-desejos">Sair</button>
             </div>
         </div>
         <div id="menu_principal">
@@ -65,12 +92,9 @@
 
         <section>
 
-
-
             <div class="container">
 
-                <div id="titulo-corpo-pagina"> &nbsp; lista de desejos</div>
-
+                <div class="titulo_user"> Lista de Desejos </div>
 
                 <div class="box-produtos prod-1">
                     <a href="" target="_blank"><img class="img-produto-principal" src="../img/arroz.jpg" /></a>
