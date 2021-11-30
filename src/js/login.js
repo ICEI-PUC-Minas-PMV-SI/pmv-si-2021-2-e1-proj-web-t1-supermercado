@@ -131,11 +131,6 @@ if (usuarioCorrente.login) {
 
     }
 }
-
-
-
-
-
 // Associa ao evento de carga da página a função para verificar se o usuário está logado
 window.addEventListener('load', initPage);
 
