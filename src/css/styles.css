@@ -509,6 +509,69 @@ th {
  
 
 
+/* paginas CRUD - categorias*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produto-item{
+    width: 240px;
+    float: left;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(233, 231, 231);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.logo_supermercado{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.btt-lista{
+    background-color: #343130;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.btt-lista:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+
+
+
 
 
 /* css de política de privacidade*/
