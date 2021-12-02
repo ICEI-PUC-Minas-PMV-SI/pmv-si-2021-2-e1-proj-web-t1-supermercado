@@ -1,0 +1,346 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "categoria": "index",
+      "imagem": "../img/oleosoya.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Oleo Soya",
+      "descricao": "Oleo de Soja - 900ml",
+      "vlr": "7.90"
+    },
+    {
+      "id": "2",
+      "categoria": "mercearia",
+      "imagem": "../img/sal.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Sal Cisne",
+      "descricao": "refinado - pacote 1 kg",
+      "vlr": "1.99"
+    },
+    {
+      "id": "3",
+      "categoria": "limpeza",
+      "imagem": "../img/detergente.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Detergente Ype",
+      "descricao": "neutro - garrafa 500ml",
+      "vlr": "1.99"
+    },
+    {
+      "id": "4",
+      "categoria": "index",
+      "imagem": "../img/desinfetante.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Desinfetante ",
+      "descricao": "Pinho Sol - Eucalipto",
+      "vlr": "3.20"
+    },
+    {
+      "id": "5",
+      "categoria": "acougue",
+      "imagem": "../img/carnemoida1.png",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Carne Moida",
+      "descricao": "Patinho",
+      "vlr": "39.00"
+    },
+    {
+      "id": "6",
+      "categoria": "index",
+      "imagem": "../img/Figado1.jfif",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Figado Boi",
+      "descricao": "bovino",
+      "vlr": "19.00"
+    },
+    {
+      "id": "7",
+      "categoria": "hortifruti",
+      "imagem": "../img/alface.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Alface",
+      "descricao": "sem agrotóxico",
+      "vlr": "3.00"
+    },
+    {
+      "id": "8",
+      "categoria": "hortifruti",
+      "imagem": "../img/alho.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Alho ",
+      "descricao": "Palho roxo",
+      "vlr": "2.20"
+    },
+    {
+      "id": "9",
+      "categoria": "mercearia",
+      "imagem": "../img/feijao1.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Feijão Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "9.00"
+    },
+    {
+      "id": "10",
+      "categoria": "mercearia",
+      "imagem": "../img/arroz.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    },
+    {
+      "id": "11",
+      "categoria": "hortifruti",
+      "imagem": "../img/banana.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Banana",
+      "descricao": "prata",
+      "vlr": "5.00"
+    },
+    {
+      "id": "12",
+      "categoria": "lata",
+      "imagem": "../img/ervilhaquero.png",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Ervilha Quero",
+      "descricao": "lata 395 ml",
+      "vlr": "2.00"
+    },
+    {
+      "id": "13",
+      "categoria": "higiene",
+      "imagem": "../img/cremeoralb.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Oleo Soya",
+      "descricao": "Oleo de Soja ",
+      "vlr": "2.99"
+    },
+    {
+      "id": "14",
+      "categoria": "higiene",
+      "imagem": "../img/cremecolgate.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Colgate",
+      "descricao": "creme dental ",
+      "vlr": "3.99"
+    },
+    {
+      "id": "15",
+      "categoria": "higiene",
+      "imagem": "../img/escovacolgate.png",
+      "logoS": "../img/extra.jpg",
+      "nome": "Escova Colgate",
+      "descricao": "escova de dente ",
+      "vlr": "3.99"
+    },
+    {
+      "id": "16",
+      "categoria": "mercearia",
+      "imagem": "../img/oleosoya.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Oleo Soya",
+      "descricao": "Oleo de Soja - 900ml",
+      "vlr": "7.90"
+    },
+    {
+      "id": "17",
+      "categoria": "index",
+      "imagem": "../img/sal1.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Sal Globo",
+      "descricao": "refinado - pacote 1 kg",
+      "vlr": "1.99"
+    },
+    {
+      "id": "18",
+      "categoria": "limpeza",
+      "imagem": "../img/amaciante-2L.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Amaciante Ype",
+      "descricao": "2 Litros",
+      "vlr": "1.99"
+    },
+    {
+      "id": "19",
+      "categoria": "limpeza",
+      "imagem": "../img/desinfetante.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Desinfetante ",
+      "descricao": "Pinho Sol - Eucalipto",
+      "vlr": "9.00"
+    },
+    {
+      "id": "20",
+      "categoria": "acougue",
+      "imagem": "../img/linguicatoscana.png",
+      "logoS": "../img/extra.jpg",
+      "nome": "Linguiça Toscana",
+      "descricao": "linguiça para churrasco",
+      "vlr": "39.00"
+    },
+    {
+      "id": "21",
+      "categoria": "acougue",
+      "imagem": "../img/Figado1.jfif",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Figado Boi",
+      "descricao": "bovino",
+      "vlr": "19.00"
+    },
+    {
+      "id": "22",
+      "categoria": "limpeza",
+      "imagem": "../img/sabaoomo.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "OMO",
+      "descricao": "sabão em pó",
+      "vlr": "23.90"
+    },
+    {
+      "id": "23",
+      "categoria": "biscoito",
+      "imagem": "../img/Doce_Leite_Aviacao.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Doce de leite",
+      "descricao": "500 ml",
+      "vlr": "13.20"
+    },
+    {
+      "id": "24",
+      "categoria": "acougue",
+      "imagem": "../img/contrafile.jfif",
+      "logoS": "../img/extra.jpg",
+      "nome": "Contra Filé",
+      "descricao": "carne bovina",
+      "vlr": "49.00"
+    },
+    {
+      "id": "25",
+      "categoria": "biscoito",
+      "imagem": "../img/Piraque.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Biscoito Piraque",
+      "descricao": "roladinho - goiabinha",
+      "vlr": "19.00"
+    },
+    {
+      "id": "26",
+      "categoria": "higiene",
+      "imagem": "../img/sabonetelux.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Sabonete Lux",
+      "descricao": "sabonete floral",
+      "vlr": "1.00"
+    },
+    {
+      "id": "27",
+      "categoria": "hortifruti",
+      "imagem": "../img/mamao.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Mamao",
+      "descricao": "papaia",
+      "vlr": "9.00"
+    },
+    {
+      "id": "28",
+      "categoria": "biscoito",
+      "imagem": "../img/Passatempo.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Biscoito Passatempo",
+      "descricao": "leite  ",
+      "vlr": "3.99"
+    },
+    {
+      "id": "29",
+      "categoria": "biscoito",
+      "imagem": "../img/Oreo.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Biscoito Oreo",
+      "descricao": "recheado",
+      "vlr": "3.99"
+    },
+    {
+      "id": "30",
+      "categoria": "index",
+      "imagem": "../img/farinha1.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Farinha Dona Benta",
+      "descricao": "farinha de trigo ",
+      "vlr": "3.99"
+    },
+    {
+      "id": "31",
+      "categoria": "lata",
+      "imagem": "../img/Seleta-KNORR.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Seleta Knorr",
+      "descricao": "lata 395ml ",
+      "vlr": "3.99"
+    },
+    {
+      "id": "32",
+      "categoria": "lata",
+      "imagem": "../img/milho-verde-quero.png",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Milhho Verde Quero",
+      "descricao": "lata 395ml ",
+      "vlr": "2.99"
+    },
+    {
+      "id": "33",
+      "categoria": "lata",
+      "imagem": "../img/Seleta-QUERO.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Seleta Quero",
+      "descricao": "lata 395ml ",
+      "vlr": "4.99"
+    },
+    {
+      "id": "34",
+      "categoria": "index",
+      "imagem": "../img/Seleta-QUERO.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Seleta Quero",
+      "descricao": "lata 395ml ",
+      "vlr": "4.99"
+    },
+    {
+      "id": "35",
+      "categoria": "laticinios",
+      "imagem": "../img/Leite_Yoki.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Leite Yoki",
+      "descricao": "leite de soja",
+      "vlr": "3.99"
+    },
+    {
+      "id": "36",
+      "categoria": "laticinios",
+      "imagem": "../img/Leite_Fazenda.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Leite Fazenda",
+      "descricao": "Integral 1L",
+      "vlr": "3.99"
+    },
+    {
+      "id": "37",
+      "categoria": "laticinios",
+      "imagem": "../img/Queijo_Quata.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Queijo Quata",
+      "descricao": "queijo Minas",
+      "vlr": "25.99"
+    },
+    {
+      "id": "38",
+      "categoria": "laticinios",
+      "imagem": "../img/leite.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Leite Piracanjuba",
+      "descricao": "leite integral",
+      "vlr": "3.99"
+    }
+  ]
+}
