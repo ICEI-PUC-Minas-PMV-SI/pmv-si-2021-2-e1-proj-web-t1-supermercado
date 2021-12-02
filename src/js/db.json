@@ -1,0 +1,54 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "imagem": "../img/arroz.jpg",
+      "logoS": "../img/epa.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    },
+    {
+      "id": "2",
+      "imagem": "../img/oleo.jpg",
+      "logoS": "../img/extra.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    },
+    {
+      "id": "3",
+      "imagem": "../img/macarrao.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    },
+    {
+      "id": "4",
+      "imagem": "../img/macarrao.jpg",
+      "logoS": "../img/carrefour.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    }
+  ],
+  "mercearia": [
+    {
+      "id": "1",
+      "imagem": "../img/arroz.jpg'",
+      "logoS": "../img/epa.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    },
+    {
+      "id": "2",
+      "imagem": "../img/arroz.jpg'",
+      "logoS": "../img/epa.jpg",
+      "nome": "Arroz Camil",
+      "descricao": "branco tipo 1",
+      "vlr": "19.00"
+    }
+  ]
+}
