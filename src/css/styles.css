@@ -34,12 +34,14 @@ h4{
     width: 300px;
     align-items: center;
 }
+/*Início CSS API Pesquisa*/
 .pesquisa-flex{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
     padding: 20px;
+    width: 500px;
 }
 
 .pesquisa{
@@ -47,27 +49,26 @@ h4{
     width: 450px;
     height: 40px; 
 }
-
-#texto-pesquisa{
-    display: flex;
-    width: 450px;
-    height: 40px;
-    font-family: Arial;
-    font-size: 18px; 
-    border-radius: 8px 0px 0px 8px;
-    border: 1px solid #666;
-    padding: 5px;
-}
-
-.btn-lupa-pesquisa{
-    display: flex;
-    width: 30px;
-    height: 30px;
+.gsc-search-button > button{
     background-color: #666;
-    padding: 5px 10px;
-    cursor: pointer; 
-    border-radius: 0px 8px 8px 0px;
+    margin: auto;
+    height: 34px;
+    cursor: pointer;
 }
+#___gcse_0 {
+    width: 100%;
+}
+div.gsc-control-cse{
+    background-color:  #343130;
+    border: none;
+}
+div.gsc-wrapper> div.gsc-adBlock{
+    display:none;
+}
+span .gcsc-find-more-on-google-text{
+    display: none;
+}
+/*Fim CSS API pesquisa*/
 
 .pesquisar-box{
     width: auto;
