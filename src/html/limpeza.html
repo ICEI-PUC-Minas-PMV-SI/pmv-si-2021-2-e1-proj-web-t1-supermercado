@@ -53,12 +53,12 @@
                 <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
             </div>
 
+            <!--Início API Pesquisa-->
             <div class="pesquisa-flex">
-                <form class="pesquisa">
-                    <input type="search" id="texto-pesquisa" placeholder="Pesquisar">
-                    <img src="../img/lupa.png" class="btn-lupa-pesquisa">
-                </form>
+                <script async src="https://cse.google.com/cse.js?cx=e9850cc80fb0f9ede"></script>
+                <div class="gcse-search"></div>
             </div>
+            <!--Fim API Pesquisa-->
             <div class="pesquisar-box">
                 <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
                 <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
@@ -98,17 +98,17 @@
     <!--Fim do header padrão categorias --------------------------------------------------------->
     <main>
 
-          <div class="container">
+        <div class="container">
             <div id="titulo-corpo-pagina"> &nbsp; Categoria: Limpeza </div>
 
-           <div class="flex-container">  
+            <div class="flex-container">
 
-               <div id='lista'>  </div>
-          
-           </div>
-             
-       </div>            
-        
+                <div id='lista'> </div>
+
+            </div>
+
+        </div>
+
     </main>
 
     <!--Rodapé padrão para todas as páginas------------------------------------------------------>
@@ -131,19 +131,19 @@
 
 
 
-<script src="../js/script.js"></script>
-    
-    <script src="../js/teste.js"></script>
-<script> 
-const produtoSuper = document.getElementById('lista');
+    <script src="../js/script.js"></script>
 
-       fetch(URL)
-           .then(res => res.json())
-           .then(produtos => {
-               let prods = '';
-               for (let i = 0; i < produtos.length; i++) {
-                   if(produtos[i].categoria == 'limpeza') {
-                       prods += ` <p class="produto-item"> 
+    <script src="../js/teste.js"></script>
+    <script>
+        const produtoSuper = document.getElementById('lista');
+
+        fetch(URL)
+            .then(res => res.json())
+            .then(produtos => {
+                let prods = '';
+                for (let i = 0; i < produtos.length; i++) {
+                    if (produtos[i].categoria == 'limpeza') {
+                        prods += ` <p class="produto-item"> 
                            <tr>
                                <td><img class="imagem" src= "${produtos[i].imagem}"></td>    
                                <td><img class="logo_supermercado" src= "${produtos[i].logoS}"></td>
@@ -154,17 +154,17 @@ const produtoSuper = document.getElementById('lista');
                            <br><a href="#" target="_blank"> <button type="button" value = produtos[i].id class="btt-lista">inserir na lista de desejo</button></a>
                                </td>
                            </tr>
-                           `;  
-                   }
-                 
-               }
-               produtoSuper.innerHTML = prods;
-           });
+                           `;
+                    }
 
-</script>
+                }
+                produtoSuper.innerHTML = prods;
+            });
+
+    </script>
 
 
- 
+
 
 </body>
 
