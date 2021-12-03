@@ -16,9 +16,7 @@ fetch(URL)
                 <th>${produtos[i].id}</th>
                 <th>${produtos[i].categoria}</th>
                 <td><img src="${produtos[i].imagem}" width="50px" height="50px"></td>
-                <td><img src="${produtos[i].logoS}" width="30px" height="30px"> </td>
-
-           
+                <td><img src="${produtos[i].logoS}" width="30px" height="30px"> </td>           
                 <td>${produtos[i].nome}</td>
                 <td>${produtos[i].descricao}</td>
                 <td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
