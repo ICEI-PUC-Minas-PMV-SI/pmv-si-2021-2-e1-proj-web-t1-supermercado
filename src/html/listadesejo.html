@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/gallery.min.css">
+    <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script src="../js/login.js"></script>
+  
+    <script>
+        // Verifica se o usuário já esta logado e modifica texto input           
+        if (usuarioCorrente.login) {
+            function initPage() {
+                // Associa a função de logout ao botão
+                document.getElementById('login_on').addEventListener('click', logoutUser);
+                // informa o nome do usuário logado
+                const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+                // Altera texto botão minha conta
+                document.getElementById("login_ok").value = usuarioCorrente.login;
+                document.getElementById("login_on").value = 'Sair';
+
+            }
+        }
+        if (usuarioCorrente.login == 'admin') function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('login_on').addEventListener('click', logoutUser);
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            // Altera texto botão minha conta
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+            document.getElementById("login_on").value = 'Sair';
+            document.getElementById("admin_ok").value = 'Gestão';
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
+</head>
+<body>
+    <header>
+            <div id="header-cabecalho">
+            <div class="logo1">
+                <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+            </div>
+
+            <div class="pesquisa-flex">
+                <form class="pesquisa">
+                    <input type="search" id="texto-pesquisa" placeholder="Pesquisar">
+                    <img src="../img/lupa.png" class="btn-lupa-pesquisa">
+                </form>
+            </div>
+            <div class="pesquisar-box">
+                <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
+                <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
+                </a>
+                <h4 class="separador">|</h4>
+                <a href="../html/list.html"> <input type="button" id="admin_ok" class="btt-desejos"
+                        value="Lista de desejos">
+                    </button></a>
+                <h4 class="separador">|</h4>
+                <a href="../html/login.html"> <input type="button" id="login_on" class="btt-entrar" value="Entrar"></a>
+            </div>
+        </div>
+        <button type="button" class="button blue mobile" id="cadastrarProduto" disabled>Cadastrar Produto</button>
+    </header>
+  
+    <main>
+      
+        <table id="tableProduto" class="records">
+            <thead>
+                <tr>
+
+                    <h1 class="header-title">Lista de Produtos</h1>
+                    <th class="text-cabecalho" width=10%></th>
+                    <th class="text-cabecalho" width=20%>Produto</th>
+                    <th class="text-cabecalho" width=40%>Descrição</th>
+                    <th class="text-cabecalho" width=10%></th>
+                    
+                </tr>
+            </thead>
+            <tbody tbody id='produto-list'>   
+             
+            </tbody>
+        </table>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Cadastro de Produtos</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="id" data-index="new" class="modal-field" placeholder="Id" required>
+                    <input type="text" id="imagem" class="modal-field" placeholder="Imagem" required>
+                    <input type="text" id="logo-supermercado" class="modal-field" placeholder="Supermercado" required>
+                    <input type="text" id="nome" class="modal-field" placeholder="Nome do Produto" required>
+                    <input type="text" id="descricao" class="modal-field" placeholder="Descrição" required>
+                    <input type="text" id="valor" class="modal-field" placeholder="Valor" required>   
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container" id="rod1">
+            <div class="rodape-escrita">
+                <a href="sobre_nos.html"> Sobre nós</a>
+                <a href=""> © Copywriting - Grupo Supermercado </a>
+            </div>
+
+            <div class="rede-social">
+                <a href="https://www.instagram.com/"><img class="instagram" id="rod2" src="../img/instagram.jpg" /></a>
+                <a href="https://www.facebook.com/"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
+                <a href="https://web.whatsapp.com/"><img class="whats" id="rod2" src="../img/whats.jpg" /> </a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+  
