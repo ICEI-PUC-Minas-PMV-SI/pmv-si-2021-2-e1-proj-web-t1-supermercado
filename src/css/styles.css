@@ -569,6 +569,19 @@ th {
     background-color: #666;
     color: #fff;
 }
+#gestao-pag{
+    padding: 10px 20px;
+    font-size: 14px;
+    align-items: center;
+    cursor: pointer;
+    background-color:rgb(65, 63, 63);
+    border: none; 
+    color: #fff;  
+    padding: 10px 20px;  
+    font-size: 14px;
+              
+  
+}
 
 
 
