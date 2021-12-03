@@ -29,7 +29,12 @@
 
             }
         }
-        if (usuarioCorrente.login == 'admin') function initPage() {
+        if (usuarioCorrente.login == 'admin')
+        {
+            window.location.href = ADMIN_URL;
+        }
+        
+        function initPage() {
 
             // Associa a função de logout ao botão
             document.getElementById('login_on').addEventListener('click', logoutUser);
