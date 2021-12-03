@@ -124,6 +124,13 @@ button {
   
   /* The Close Button */
   .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3 {
     width: 100%;
     border-radius: 7px;
     margin-top: 15px;
