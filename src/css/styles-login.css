@@ -124,10 +124,15 @@ button {
   
   /* The Close Button */
   .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    outline: 0;
+    cursor: pointer;
+    border: none;  
   }
 
   

@@ -39,7 +39,7 @@
                     <td>${usuario.nome}</td>
                     <td>${usuario.login}</td>
                     <td>${usuario.email}</td>
-                    <input id="user-del" type="button" value="Remover" onclick="$('#id-prod').text(${usuario.id});">
+                    
                    
                                  
                      `;
@@ -48,37 +48,7 @@
             document.getElementById('table-usuarios').innerHTML = listaUsuarios
 
         }
-        function init() {
-            // Adiciona funções para tratar os eventos 
-            // Intercepta o click do botão Excluir
-            $("#user-del").click(function () {
-                let campoId = $("id-prod");
-                console.log(campoId);
-                if (campoId == "") {
-                    alert("Selecione um contato a ser excluído.");
-                    return;
-                }
-                deleteContato(parseInt(campoId));
-
-                // Reexibe os contatos
-                exibeUsuarios();
-
-            });
-            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
-            exibeUsuarios();
-        }
-        function deleteContato(id) {
-            // Filtra o array removendo o elemento com o id passado
-            db_usuarios = db_usuarios.filter(function (element) { 
-                return element.id != id});
-
-            alert ("Contato removido com sucesso");
-
-            // Atualiza os dados no Local Storage
-            //localStorage.setItem('db_contato', JSON.stringify(db));
-            localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
-            exibeUsuarios();
-        }
+        
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
         window.addEventListener('load', initPage);
 
