@@ -52,19 +52,18 @@
                 <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
             </div>
 
-           <!--Início API Pesquisa-->
+            <!--Início API Pesquisa-->
             <div class="pesquisa-flex">
                 <script async src="https://cse.google.com/cse.js?cx=e9850cc80fb0f9ede"></script>
                 <div class="gcse-search"></div>
             </div>
             <!--Fim API Pesquisa-->
-            
             <div class="pesquisar-box">
                 <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
                 <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
                 </a>
                 <h4 class="separador">|</h4>
-                <a href="../html/listadesejo.html"> <input type="button" id="admin_ok" class="btt-desejos"
+                <a href="../html/list.html"> <input type="button" id="admin_ok" class="btt-desejos"
                         value="Lista de desejos">
                     </button></a>
                 <h4 class="separador">|</h4>
@@ -98,27 +97,27 @@
 
     <main>
 
-               
-            <!--Fim dos itens padrões-->
 
-         <div class="container">
-                <div id="titulo-corpo-pagina"> &nbsp; Categoria: Mercearia </div>
+        <!--Fim dos itens padrões-->
 
-               <div class="flex-container">  
+        <div class="container">
+            <div id="titulo-corpo-pagina"> &nbsp; Categoria: Mercearia </div>
 
-                   <div id='lista'>  </div>
-              
-               </div>
-                 
-           </div>           
-      
+            <div class="flex-container">
+
+                <div id='lista'> </div>
+
+            </div>
+
+        </div>
+
     </main>
     <!--Rodapé padrão para todas as páginas-->
     <footer class="rodape">
         <div class="container" id="rod1">
             <div class="rodape-escrita">
                 <a href=""> Sobre nós</a>
-                <a href="">  © Copywriting - Grupo Supermercado        </a>
+                <a href=""> © Copywriting - Grupo Supermercado </a>
             </div>
 
             <div class="rede-social">
@@ -131,19 +130,19 @@
     </footer>
     <!--Rodapé padrão para todas as páginas-->
 
-<script src="../js/script.js"></script> 
+    <script src="../js/script.js"></script>
 
- <script src="../js/teste.js"></script>
-<script> 
-    const produtoSuper = document.getElementById('lista');
+    <script src="../js/teste.js"></script>
+    <script>
+        const produtoSuper = document.getElementById('lista');
 
-           fetch(URL)
-               .then(res => res.json())
-               .then(produtos => {
-                   let prods = '';
-                   for (let i = 0; i < produtos.length; i++) {
-                       if(produtos[i].categoria == 'mercearia') {
-                           prods += ` <p class="produto-item"> 
+        fetch(URL)
+            .then(res => res.json())
+            .then(produtos => {
+                let prods = '';
+                for (let i = 0; i < produtos.length; i++) {
+                    if (produtos[i].categoria == 'mercearia') {
+                        prods += ` <p class="produto-item"> 
                                <tr>
                                    <td><img class="imagem" src= "${produtos[i].imagem}"></td>    
                                    <td><img class="logo_supermercado" src= "${produtos[i].logoS}"></td>
@@ -154,17 +153,17 @@
                                     <br><a href="listadesejo.html" target="_blank"> <button type="button" value = produtos[i].id class="btt-lista">inserir na lista de desejo</button></a>
                                    </td>
                                </tr>
-                               `;  
-                       }
-                     
-                   }
-                   produtoSuper.innerHTML = prods;
-               });
+                               `;
+                    }
 
-</script>
+                }
+                produtoSuper.innerHTML = prods;
+            });
+
+    </script>
 
 
-     
+
 
 </body>
 

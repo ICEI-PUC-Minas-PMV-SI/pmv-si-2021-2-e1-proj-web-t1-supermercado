@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no-scale">
-    <title> Gestão do Sistema </title>
+    <title> Lista de desejos </title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link rel="stylesheet" href="../css/gallery.min.css">
     <link rel="stylesheet" href="../css/gallery.theme.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="../js/login.js"></script>
     <script>
         // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login  
         if (!usuarioCorrente.login) {
             window.location.href = LOGIN_URL;
+
         }
+
+        if (usuarioCorrente.login == 'admin') {
+            window.location.href = ADMIN_URL;
+        }
+
         function initPage() {
 
             // Associa a função de logout ao botão
@@ -24,64 +29,14 @@
             // informa o nome do usuário logado
             const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
 
-            // Informa o nome do usuário logado
             document.getElementById("login_ok").value = usuarioCorrente.login;
-            exibeUsuarios();
-        }
-        function exibeUsuarios() {
 
-            // Popula a tabela com os registros do banco de dados
-            let listaUsuarios = '';
-            for (i = 0; i < db_usuarios.usuarios.length; i++) {
-                let usuario = db_usuarios.usuarios[i];
-                listaUsuarios += `<tr>
-                    <td>${usuario.id}<span id="id-prod"> </span></td>
-                    <td>${usuario.nome}</td>
-                    <td>${usuario.login}</td>
-                    <td>${usuario.email}</td>
-                    <input id="user-del" type="button" value="Remover" onclick="$('#id-prod').text(${usuario.id});">
-                   
-                                 
-                     `;
-            }
-            // Substitui as linhas do corpo da tabela
-            document.getElementById('table-usuarios').innerHTML = listaUsuarios
+            console.log(usuarioCorrente);
 
-        }
-        function init() {
-            // Adiciona funções para tratar os eventos 
-            // Intercepta o click do botão Excluir
-            $("#user-del").click(function () {
-                let campoId = $("id-prod");
-                console.log(campoId);
-                if (campoId == "") {
-                    alert("Selecione um contato a ser excluído.");
-                    return;
-                }
-                deleteContato(parseInt(campoId));
 
-                // Reexibe os contatos
-                exibeUsuarios();
-
-            });
-            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
-            exibeUsuarios();
-        }
-        function deleteContato(id) {
-            // Filtra o array removendo o elemento com o id passado
-            db_usuarios = db_usuarios.filter(function (element) { 
-                return element.id != id});
-
-            alert ("Contato removido com sucesso");
-
-            // Atualiza os dados no Local Storage
-            //localStorage.setItem('db_contato', JSON.stringify(db));
-            localStorage.setItem('db_usuarios', JSON.stringify(db_usuarios));
-            exibeUsuarios();
         }
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
         window.addEventListener('load', initPage);
-
     </script>
 </head>
 
@@ -95,8 +50,8 @@
                 <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
             </div>
 
-              <!--Início API Pesquisa-->
-              <div class="pesquisa-flex">
+            <!--Início API Pesquisa-->
+            <div class="pesquisa-flex">
                 <script async src="https://cse.google.com/cse.js?cx=e9850cc80fb0f9ede"></script>
                 <div class="gcse-search"></div>
             </div>
@@ -139,22 +94,46 @@
 
             <div class="container">
 
-                <div class="titulo_user"> Gestão dos usuários </div>
+                <div class="titulo_user"> Lista de Desejos </div>
 
-                <table id="grid-usuarios" class="tblListar">
-                    <thead>
-                        <tr>
-                            <th scope="col" id="nomeid">id</th>
-                            <th scope="col" id="nomeid">Nome</th>
+                <div class="box-produtos prod-1">
+                    <a href="" target="_blank"><img class="img-produto-principal" src="../img/arroz.jpg" /></a>
+                    <img class="logo-supermercado" src="../img/epa.jpg" alt="Endereço"
+                        title=" Av. Francisco Deslandes, 150 - Ancieta - BH - MG" />
+                    <h3 class="texto-produto">Diversos</h3>
+                    <p class="descricao-produto">Arroz</p>
+                    <a href="" target="_blank">
+                        <button type="button" class="btt-lista-desejo"> Remover da lista de desejo</button></a>
+                </div>
 
-                            <th scope="col">Usuário</th>
-                            <th scope="col">E-mail</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-usuarios">
-                    </tbody>
-                </table>
-                <div class="titulo_user"> Cadastro dos produtos </div>
+                <div class="box-produtos prod-1">
+                    <img class="img-produto-principal" src="../img/farinha.jpg" />
+                    <img class="logo-supermercado" src="../img/carrefour.jpg" alt="Endereço"
+                        title="Av. Francisco Deslandes, 150 - Ancieta - BH - MG" />
+                    <h3 class="texto-produto">Diversos </i></h3>
+                    <p class="descricao-produto"> Farinha </p>
+                    <button type="button" class="btt-lista-desejo">Remover da lista de desejo</button>
+
+                </div>
+
+                <div class="box-produtos prod-1"><a href="#"><img class="img-produto-principal"
+                            src="../img/coxa e sobre coxa 1.png" /></a>
+                    <img class="logo-supermercado" src="../img/extra.jpg" alt="Endereço"
+                        title="Av. Francisco Deslandes, 150 - Ancieta - BH - MG" />
+                    <h3 class="texto-produto">Aves</i></h3>
+                    <p class="descricao-produto"> Coxa e Sobre Coxa </p>
+                    <button type="button" class="btt-lista-desejo">Remover da lista de desejo</button>
+                </div>
+
+                <div class="box-produtos prod-1"><a href="#"><img class="img-produto-principal"
+                            src="../img/Figado 1.jfif" /></a>
+                    <img class="logo-supermercado" src="../img/epa.jpg" alt="Endereço"
+                        title="Av. Francisco Deslandes, 150 - Ancieta - BH - MG" />
+                    <h3 class="texto-produto">Carne Bovina</i></h3>
+                    <p class="descricao-produto"> Fígado </p>
+                    <button type="button" class="btt-lista-desejo">Remover da lista de desejo</button>
+                </div>
+
 
 
             </div>
@@ -180,18 +159,6 @@
     <!--Rodapé padrão para todas as páginas------------------------------------------------------>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-
-<script>
-
-
-</script>
 <script src="../js/script.js"></script>
 
 </html>
