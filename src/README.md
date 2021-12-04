@@ -16,7 +16,7 @@ Cadastro, edição e remoção de produtos, visualização dos usuários cadastr
 Acesso teste para o administrador:
 Enviado na entrega da atividade.
 
-Além das funcionalidades citas, foi implantado a API de buscas do Google (Google Custom Search).
+Além das funcionalidades citadas, foi implementado a API da barra de buscas do Google (Google Custom Search).
 
 
 ## Histórico de versões
