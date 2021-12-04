@@ -12,7 +12,6 @@ Um site com objetivo de comparar os preços dos produtos essenciais em uma cesta
 * Adilmar Luiz de Souza Junior
 * Anderson dos Santos
 * Fernanda de Souza Borges
-* Guilherme Cordeiro de Sousa
 * Jamesson Seren de Arruda
 * Lucas Santos Guimarães
 * Rodrigo Pena Furtado
