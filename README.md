@@ -1,4 +1,4 @@
-# PLATAFORMA WEB DE COMPARAÇÃO DE PREÇOS
+# COMPARE PREÇOS
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Projeto - Aplicações Web`
