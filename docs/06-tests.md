@@ -1,5 +1,5 @@
 # Plano de Testes de Software
-<span style="color:red">Pré-requisitos: <a href="02-especification.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+<span style="color:red">Pré-requisitos: <a href="02-especification.md"> Especificação do Projeto</a></span>, <a href="04-interface.md"> Projeto de Interface</a>
 
 ## Cenários de Teste
 
