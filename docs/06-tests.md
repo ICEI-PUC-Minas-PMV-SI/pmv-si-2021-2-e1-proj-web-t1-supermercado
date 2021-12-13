@@ -7,18 +7,16 @@ Pré-requisitos:
 Computador com acesso a internet;
 Navegador com versão compatível com tecnologia html5
 
-CT.01 - Acesso às páginas home e nossa história
+CT.01 - Acesso às páginas "Home" e "Sobre Nós"
 
 Procedimentos:
 1. Acessar o site através do link;
-2. Clicar na página Nossa História no menu superior.
+2. Clicar na página Sobre Nós na parte inferior da página.
 
 Resultados esperados:
-1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais informações da organização
-2. Ao clicar no botão Nossa história a tela deve carregar os dados sobre a história do LARBEM (apresentação em formato linha do tempo)
+1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais promoções da semana;
+2. Ao clicar no botão Sobre Nós, a tela deve carregar os dados sobre os objetivos do site Compare Preços.
 
-
-CT.02 - Acesso as informações sobre voluntariado
 
 Procedimentos:
 1. Acessar o site através do link;
