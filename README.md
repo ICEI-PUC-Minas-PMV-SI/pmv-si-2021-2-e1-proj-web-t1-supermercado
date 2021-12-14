@@ -5,7 +5,7 @@
 
 `SEMESTRE: 1º`
 
-Um site com objetivo de comparar os preços dos produtos essenciais em uma cesta básica.
+O objetivo deste projeto, é criar um site que compare os preços ou identifique promoções dos principais produtos de cesta básica nos supermercados da cidade de Belo Horizonte. Visando ajudar o público que possui uma renda mais baixa, encontrar produtos com o melhor preço.
 
 ## Integrantes
 
