@@ -78,3 +78,17 @@ Procedimentos:
 
 Resultados esperados:
 1. Ao clicar no botão Lupa com campos de pesquisa preenchido, o site deve retornar uma lista de resultados utilizando API do Google.
+
+CT.08 - Usuário Administrador
+
+Procedimentos:
+1. Utilizando os mesmos procedimentos de Login de um usuário comum, testar o botão Lista de desejos.
+Resultados esperados:
+1. Ao clicar no Lista de Desejos, o usuário administrador, poderá ver os demais usuários cadastrados e poderá cadastrar novos produtos. 
+
+CT.09 - Usuário Administrador cadastrando produtos
+
+Procedimentos:
+1. Utilizando os mesmos procedimentos de Login de um usuário comum, testar o botão Lista de desejos como usuário administrador.
+Resultados esperados:
+1. Ao clicar em Cadastro, o usuário administrador será levado a uma nova página onde haverá um botão Adicionar, o qual abrirá um nova janela com os seguintes campos: Código, Categoria, Imagem, Logo, Produto, Descrição e Valor. Haverá nessa janela os botões de cancelar ou salvar a ação de cadastro. 
