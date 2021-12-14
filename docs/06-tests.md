@@ -35,26 +35,25 @@ Procedimentos:
 1. Acessar o site através do link;
 2. Clicar na no botão Entrar;
 3. Sem ter os campos Email e Senha preenchidos, clicar em Acessar;
-4. Ao clicar em Acessar, se nada for digitado, a página pedirá para preencher os campos email e senha.
-5. Com os campos email e senha preenchidos, ao clicar em Acessar, irá para Home; porém, no lugar de "Olá Visitante!", aparecerá nome do usuário e ele poderá acessar sua Lista de Desejos e o botão Sair, para deslogar.
-
+4. Com os campos email e senha preenchidos, clicar em Acessar.
+ 
 
 Resultados esperados:
-1. Ao acessar a página de login, o usuário (cadastrado) de inserir dados nos campos Email e Senha.
-2. Ao clicar no botão entrar, a p página contém os campos email e senha, além de a caixa de "Lembre-me" (para manter usuário logado), botões Acessar (para acesso à página do usuário), Aqui (para recuperar senha) e Cadastre-se (para novo usuário cadastrar-se). Transparência serão apresentados botões correspondentes aos anos 2018, 2019, 2020 e 2021;
-3. Ao clicar no botão a tela abrirá o arquivo .pdf com o documento de prestação de contas correspondente.
+1. Ao clicar em Acessar, se nada for digitado, a página pedirá para preencher os campos email e senha.
+2. Ao acessar a página de login, o usuário (cadastrado) de inserir dados nos campos Email e Senha e, ao clicar em Acessar, irá para Home; porém, no lugar de "Olá Visitante!", aparecerá nome do usuário e ele poderá acessar sua Lista de Desejos e o botão Sair, para deslogar.
 
 
-CT.04 - Acesso a dados bancários para realizar doação 
+
+CT.04 - Recuperando a Senha e Cadastrando-se
 
 Procedimentos:
-1. Acessar o site através do link;
-2. Clicar na página Doe.
+1. Acessar a página de Login através do site;
+2. Clicar em Aqui (para recuperar senha);
+3. Clicar em Cadastre-se
 
 Resultados esperados:
-1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais informações da organização;
-2. Ao clicar em Doe será carregada a tela com todos os dados bancários do LARBEM para doação.
-
+1. Ao clicar em Aqui, o site abrirá uma pequena janela para que o email do usuário seja inserido, para receber a senha.
+2. Ao clicar em Cadastre-se, o site abrirá uma pequena janela com os campos a serem preenchidos: Nome, Sobrenome, E-mail, Senha, Confirmação de Senha. A janela também conterá os botões de Salvar e Cancelar a operação de cadastro.
 
 CT.05 - Validar estrutura Mobile-First do site
 
