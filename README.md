@@ -6,6 +6,7 @@
 `SEMESTRE: 1º`
 
 Com o surgimento da pandemia do coronavírus, o Brasil entrou numa crise financeira que reduziu o poder de compra da população sobre alimentos e produtos de higiene pessoal, graças ao aumento dos preços. Nesse contexto, ocorre uma dificuldade em encontrar os itens com o melhor custo para seu orçamento.
+
 O objetivo deste projeto, é criar um site que compare os preços ou identifique promoções dos principais produtos de cesta básica nos supermercados da cidade de Belo Horizonte. Visando ajudar o público que possui uma renda mais baixa, encontrar produtos com o melhor preço. 
 
 ## Integrantes
