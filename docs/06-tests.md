@@ -17,26 +17,31 @@ Resultados esperados:
 1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais promoções da semana;
 2. Ao clicar no botão Sobre Nós, a tela deve carregar os dados sobre os objetivos do site Compare Preços.
 
+CT.02 - Acesso à página de Login
 
 Procedimentos:
 1. Acessar o site através do link;
-2. Clicar na página Voluntariado no menu superior.
+2. Clicar no botão Entrar no canto direito superior;
+
 
 Resultados esperados:
-1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais informações da organização
-2. Ao clicar no botão Voluntariado a tela deve mostrar lista de vagas de voluntariado que o LARBEM necessita e informações de contato para se candidatar a essas vagas ou para enviar proposta de um algum outro tipo de trabalho voluntário.
+1. Ao clicar no botão Entrar, a página de Login deve ser carregada. A página contém os campos email e senha, além de a caixa de "Lembre-me" (para manter usuário logado), botões Acessar (para acesso à página do usuário), Aqui (para recuperar senha) e Cadastre-se (para novo usuário cadastrar-se).
 
 
-CT.03 - Acesso aos dados financeiros de transparência do LARBEM (prestação de contas)
+
+CT.03 - Logando como usuário
 
 Procedimentos:
 1. Acessar o site através do link;
-2. Clicar na página Transparência no menu superior;
-3. Clicar no botão correspondente ao ano da prestação de contas que o usuário deseja visualizar.
+2. Clicar na no botão Entrar;
+3. Sem ter os campos Email e Senha preenchidos, clicar em Acessar;
+4. Ao clicar em Acessar, se nada for digitado, a página pedirá para preencher os campos email e senha.
+5. Com os campos email e senha preenchidos, ao clicar em Acessar, irá para Home; porém, no lugar de "Olá Visitante!", aparecerá nome do usuário e ele poderá acessar sua Lista de Desejos e o botão Sair, para deslogar.
+
 
 Resultados esperados:
-1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais informações da organização;
-2. Ao clicar no Transparência serão apresentados botões correspondentes aos anos 2018, 2019, 2020 e 2021;
+1. Ao acessar a página de login, o usuário (cadastrado) de inserir dados nos campos Email e Senha.
+2. Ao clicar no botão entrar, a p página contém os campos email e senha, além de a caixa de "Lembre-me" (para manter usuário logado), botões Acessar (para acesso à página do usuário), Aqui (para recuperar senha) e Cadastre-se (para novo usuário cadastrar-se). Transparência serão apresentados botões correspondentes aos anos 2018, 2019, 2020 e 2021;
 3. Ao clicar no botão a tela abrirá o arquivo .pdf com o documento de prestação de contas correspondente.
 
 
