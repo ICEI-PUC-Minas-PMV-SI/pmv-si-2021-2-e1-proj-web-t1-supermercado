@@ -55,38 +55,26 @@ Resultados esperados:
 1. Ao clicar em Aqui, o site abrirá uma pequena janela para que o email do usuário seja inserido, para receber a senha.
 2. Ao clicar em Cadastre-se, o site abrirá uma pequena janela com os campos a serem preenchidos: Nome, Sobrenome, E-mail, Senha, Confirmação de Senha. A janela também conterá os botões de Salvar e Cancelar a operação de cadastro.
 
-CT.05 - Validar estrutura Mobile-First do site
+CT.05 - Lista de desejos
 
 Procedimentos:
-1. Acessar o site através do link utilizando computador;
-2. Acessar o site através do link utilizando smartphone.
+1. Logado, o usuário deverá clicar em Lista de desejos.
 
 Resultados esperados:
-1. Ao acessar o link do site a página home deve ser aberta, a página deve apresentar as principais informações da organização;
-2. Layout do site deve se adaptar automaticamente dependendo do aparelho utilizado para acesso.
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+1. Uma nova página deve ser aberta, na qual o usuário poderá adicionar ou retirar itens da lista de desejos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+CT.06 - Categorias
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Procedimentos:
+1. Nas páginas (exceto Login, Sobre nós e Lista de desejos) há sempre um menu horizontal com as principais categorias. Deve-se clicar em cada uma delas.
 
-# Registro de Testes de Software
+Resultados esperados:
+1. Ao clicar em uma categoria específica, o site deverá abrir uma página que terá apenas produtos com aquela categoria.
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+CT.07 - Pesquisando
 
-## Avaliação
+Procedimentos:
+1. Na parte superior, há um campo de pesquisa e um botão com ícone de Lupa para realizar a ação de busca. Devemos digitar um termo e apertar tal botão.
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Resultados esperados:
+1. Ao clicar no botão Lupa com campos de pesquisa preenchido, o site deve retornar uma lista de resultados utilizando API do Google.
