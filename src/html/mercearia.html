@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no-scale">
+    <title> Mercearia </title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/gallery.min.css">
+    <link rel="stylesheet" href="../css/gallery.theme.css">
+    <script src="../js/login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e modifica texto input           
+        if (usuarioCorrente.login) {
+            function initPage() {
+                // Associa a função de logout ao botão
+                document.getElementById('login_on').addEventListener('click', logoutUser);
+                // informa o nome do usuário logado
+                const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+                // Altera texto botão minha conta
+                document.getElementById("login_ok").value = usuarioCorrente.login;
+                document.getElementById("login_on").value = 'Sair';
+
+            }
+        }
+        if (usuarioCorrente.login == 'admin') function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('login_on').addEventListener('click', logoutUser);
+            // informa o nome do usuário logado
+            const usuarioCorrente = JSON.parse(sessionStorage.getItem('usuarioCorrente'));
+
+            // Altera texto botão minha conta
+            document.getElementById("login_ok").value = usuarioCorrente.login;
+            document.getElementById("login_on").value = 'Sair';
+            document.getElementById("admin_ok").value = 'gestão';
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="texto-cabecalho"> Aqui você encontra os melhores preços! </h1>
+        <div id="header-cabecalho">
+            <div class="logo1">
+                <a href="../html/index.html"><img class="logo" src="../img/logo.jpg" alt=""></a>
+            </div>
+
+            <!--Início API Pesquisa-->
+            <div class="pesquisa-flex">
+                <script async src="https://cse.google.com/cse.js?cx=e9850cc80fb0f9ede"></script>
+                <div class="gcse-search"></div>
+            </div>
+            <!--Fim API Pesquisa-->
+            <div class="pesquisar-box">
+                <img class="icone-pessoa" src="../img/usuario.jpg" alt="">
+                <a href=""> <input type="button" id="login_ok" class="btt-cadastrar" value="Olá Visitante!">
+                </a>
+                <h4 class="separador">|</h4>
+                <a href="../html/list.html"> <input type="button" id="admin_ok" class="btt-desejos"
+                        value="Lista de desejos">
+                    </button></a>
+                <h4 class="separador">|</h4>
+                <a href="../html/login.html"> <input type="button" id="login_on" class="btt-entrar" value="Entrar"></a>
+            </div>
+        </div>
+        <div id="menu_principal">
+            <nav id="nav">
+                <div class="categorias">
+                    <button aria-label="Abrir Menu" id="btn-menu" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false">Categorias <span id="hamburguer-menu"></span> </button>
+                </div>
+
+                <ul id="menu" role="menu">
+                    <li><a href="mercearia.html"> Mercearia </a></li>
+                    <li><a href="acougue.html"> Açougue</a></li>
+                    <li><a href="biscoito.html">Biscoitos e Doces </a></li>
+                    <li><a href="higiene.html"> Higiene Pessoal </a></li>
+                    <li><a href="hortifruti.html"> Hortifruti</a></li>
+                    <li><a href="latas.html"> Latas e Conservas </a></li>
+                    <li><a href="laticinios.html"> Laticinios</a></li>
+                    <li><a href="limpeza.html"> Limpeza </a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main>
+
+
+        <!--Fim dos itens padrões-->
+
+        <div class="container">
+            <div id="titulo-corpo-pagina"> &nbsp; Categoria: Mercearia </div>
+
+            <div class="flex-container">
+
+                <div id='lista'> </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    <!--Rodapé padrão para todas as páginas-->
+    <footer class="rodape">
+        <div class="container" id="rod1">
+            <div class="rodape-escrita">
+                <a href=""> Sobre nós</a>
+                <a href=""> © Copywriting - Grupo Supermercado </a>
+            </div>
+
+            <div class="rede-social">
+                <a href="https://www.instagram.com/"><img class="instagram" id="rod2" src="../img/instagram.jpg" /></a>
+                <a href="https://www.facebook.com/"><img class="face" id="rod2" src="../img/facebook.jpg" /></a>
+                <a href="https://web.whatsapp.com/"><img class="whats" id="rod2" src="../img/whats.jpg" /> </a>
+            </div>
+
+        </div>
+    </footer>
+    <!--Rodapé padrão para todas as páginas-->
+
+    <script src="../js/script.js"></script>
+
+    <script src="../js/teste.js"></script>
+    <script>
+        const produtoSuper = document.getElementById('lista');
+
+        fetch(URL)
+            .then(res => res.json())
+            .then(produtos => {
+                let prods = '';
+                for (let i = 0; i < produtos.length; i++) {
+                    if (produtos[i].categoria == 'mercearia') {
+                        prods += ` <p class="produto-item"> 
+                               <tr>
+                                   <td><img class="imagem" src= "${produtos[i].imagem}"></td>    
+                                   <td><img class="logo_supermercado" src= "${produtos[i].logoS}"></td>
+                                   <td> ${produtos[i].nome}</td>
+                               <br><td>${produtos[i].descricao}</td>
+                               <br><td>R$${(parseFloat(produtos[i].vlr)).toFixed(2)}</td>
+                                   <td>
+                                    <br><a href="listadesejo.html" target="_blank"> <button type="button" value = produtos[i].id class="btt-lista">inserir na lista de desejo</button></a>
+                                   </td>
+                               </tr>
+                               `;
+                    }
+
+                }
+                produtoSuper.innerHTML = prods;
+            });
+
+    </script>
+
+
+
+
+</body>
+
+</html>
